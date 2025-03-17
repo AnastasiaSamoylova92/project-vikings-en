@@ -45,6 +45,9 @@ class Saxon(Soldier):
             return f"A Saxon has received {damage} points of damage"
         else:
             return f"A Saxon has died in combat"
+    def heal(self, healing_amount):
+        self.health += healing_amount
+        return f"Pray thy gods! a Saxon has healed {healing_amount} points of damage!"
 
 # WAAAAAAAAAGH
 
@@ -77,6 +80,14 @@ class War():
         result = viking.receiveDamage(saxon.strength)
         if viking.health <= 0:
             self.vikingArmy.remove(viking)
+        return result
+    
+    def saxonHeal(self):
+        if self.saxonArmy == []:
+            return  #! We addded the condition to avoid that saxons heal when the list is empty
+        saxon = random.choice(self.saxonArmy)
+        heal_amount = random.randint(5, 40) # amount to be healed
+        result = saxon.heal(heal_amount)
         return result
     
     def showStatus(self):
