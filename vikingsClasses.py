@@ -60,6 +60,8 @@ class War():
         self.saxonArmy.append(saxon)
 
     def vikingAttack(self):
+        if self.vikingArmy == []:
+            return  #! We addded the condition to avoid that vikings attack when the list is empty
         saxon = random.choice(self.saxonArmy)
         viking = random.choice(self.vikingArmy)
         result = saxon.receiveDamage(viking.strength)
@@ -68,6 +70,8 @@ class War():
         return result
     
     def saxonAttack(self):
+        if self.saxonArmy == []:
+            return  #! We addded the condition to avoid that saxons attack when the list is empty
         saxon = random.choice(self.saxonArmy)
         viking = random.choice(self.vikingArmy)
         result = viking.receiveDamage(saxon.strength)
