@@ -18,6 +18,7 @@ for i in range(0,5):
         great_war.addSaxon(Saxon(100,random.randint(0,100)))
     
 round = 0
+revived_count = 0
 while great_war.showStatus() == "Vikings and Saxons are still in the thick of battle.":
     print( great_war.vikingAttack() )
     print( great_war.saxonAttack() )
@@ -25,3 +26,9 @@ while great_war.showStatus() == "Vikings and Saxons are still in the thick of ba
     print(f"round: {round} // Viking army: {len(great_war.vikingArmy)} warriors",f"and Saxon army: {len(great_war.saxonArmy)} warriors")
     print(great_war.showStatus())
     round += 1
+
+print("\n=== BATTLE SUMMARY ===")
+print(f"Total rounds fought: {round}")
+print(f"Remaining Vikings: {len(great_war.vikingArmy)}")
+print(f"Remaining Saxons: {len(great_war.saxonArmy)}")
+print(f"Count of Viking revived: {revived_count}")
