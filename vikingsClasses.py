@@ -1,4 +1,8 @@
 import random
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt #data visualization
+import seaborn as sns #data visualization
 
 # Soldier
 
@@ -89,7 +93,7 @@ class Saxon(Soldier):
         if self.is_range():
             global rage_count
             rage_count += 1
-            print("The Saxon is enter in RAGE MODE!")
+            #print("The Saxon is enter in RAGE MODE!")
             self.strength += 5 # Plus 5 to damage 
 
 # WAAAAAAAAAGH
@@ -98,6 +102,7 @@ class War():
     def __init__(self):
         self.vikingArmy = []
         self.saxonArmy = []
+        self.revived_count = 0 #added
 
     def addViking(self, viking):
         self.vikingArmy.append(viking)
@@ -152,50 +157,59 @@ class War():
             return "Vikings and Saxons are still in the thick of battle."
 
 #* Global Variables
-viking_names = [
+
+# Run multiple simulations
+num_simulations = 100  # Change to run more simulations
+battle_data = []
+
+for sim in range(num_simulations):
+    viking_names = [
     "Ragnar", "Bjorn", "Erik", "Thorvald", "Harald", "Sigurd", "Ivar", "Leif", "Ulf", "Gunnar",
     "Eirik", "Sven", "Hakon", "Rolf", "Sten", "Vidar", "Orm", "Viggo", "Torstein", "Halvar",
     "Arne", "Trygve", "Odin", "Frode", "Ketil", "Runar", "Magnus", "Asmund", "Steinar", "Thorkell"
-]
-great_war = War()
-round = 0
-total_damage_done_by_saxons = 0
-total_damage_done_by_vikings = 0
-total_healed_amount = 0
-revived_count = 0
-blocked_count = 0
-battlecry_count = 0
-rage_count = 0
+    ]
+    great_war = War()
+    round_count = 0
+    total_damage_done_by_saxons = 0
+    total_damage_done_by_vikings = 0
+    total_healed_amount = 0
+    revived_count = 0
+    blocked_count = 0
+    battlecry_count = 0
+    rage_count = 0
 
-#* Creating the Vikings for the War. 
-# quantity = 5
-# name = random from list
-# health = 100
-# strength = random from 0 to 100
-for i in range(0,5):
-    if i:
-        great_war.addViking(Viking(viking_names[random.randint(0,29)],100,random.randint(0,100)))
+    #* Creating the Vikings for the War. 
+    # quantity = 5
+    # name = random from list
+    # health = 100
+    # strength = random from 0 to 100
+    for i in range(0,5):
+        if i:
+            great_war.addViking(Viking(viking_names[random.randint(0,29)],100,random.randint(0,100)))
 
-#* Creating the Saxons for the War.
-# quantity = 5
-# health = 100
-# strength = random from 0 to 100
-for i in range(0,5):
-    if i:
-        great_war.addSaxon(Saxon(100,random.randint(0,100)))
+    #* Creating the Saxons for the War.
+    # quantity = 5
+    # health = 100
+    # strength = random from 0 to 100
+    for i in range(0,5):
+        if i:
+            great_war.addSaxon(Saxon(100,random.randint(0,100)))
 
-#* Main War Loop
-while great_war.showStatus() == "Vikings and Saxons are still in the thick of battle.":
-    print( great_war.vikingAttack() )
-    print( great_war.saxonAttack() )
-    print( great_war.saxonHeal() )
-    print( great_war.checkVikingBattleCry() )
-    print(f"round: {round} // Viking army: {len(great_war.vikingArmy)} warriors",f"and Saxon army: {len(great_war.saxonArmy)} warriors")
-    print(great_war.showStatus())
-    round += 1
+    #* Main War Loop
+    while great_war.showStatus() == "Vikings and Saxons are still in the thick of battle.":
+        great_war.vikingAttack() 
+        great_war.saxonAttack() 
+        great_war.saxonHeal() 
+        great_war.checkVikingBattleCry()
+        round_count += 1
+
+    battle_data.append([sim+1, great_war.showStatus(), round_count, len(great_war.vikingArmy), len(great_war.saxonArmy), revived_count ])
+
+# Save data to Pandas DataFrame
+df = pd.DataFrame(battle_data, columns=["Simulation", "Winner", "Rounds", "Vikings Left", "Saxons Left", "Revived Vikings"])
 
 #* Battle Summary
-print("\n=== BATTLE SUMMARY ===")
+""" print("\n=== BATTLE SUMMARY ===")
 print(f"Total rounds fought: {round}")
 print(f"Remaining Vikings: {len(great_war.vikingArmy)}")
 print(f"Remaining Saxons: {len(great_war.saxonArmy)}")
@@ -205,4 +219,32 @@ print(f"Total Amount Healed by Saxons: {total_healed_amount}") # chance of one S
 print(f"Total Count of Viking revived: {revived_count}") # chance of revival after hit and dead
 print(f"Total Count of Viking blocks: {blocked_count}") # chance of block before hit
 print(f"Total Count of Viking Battle Cry activations: {battlecry_count}") # increase strength of all Vikings for the rest of the war
-print(f"Total Count of Saxon rage mode: {rage_count}") # increase strength of all Saxon when they are equal or lower than 30% of health
+print(f"Total Count of Saxon rage mode: {rage_count}") # increase strength of all Saxon when they are equal or lower than 30% of health """
+
+# Export to CSV
+df.to_csv("battle_results.csv", index=False)
+
+#visualization
+#bar chart showing how many battlers were won by each side
+plt.figure(figsize=(10, 5))
+sns.countplot(x="Winner", data=df, palette="coolwarm")
+plt.title("Battle Outcome Count")
+plt.xlabel("Winner")
+plt.ylabel("Count")
+plt.show()
+
+#histohram showing distribution of how many rounds battles lasted
+plt.figure(figsize=(10, 5))
+sns.histplot(df["Rounds"], bins=20, color='blue')
+plt.title("Distribution of Rounds per Battle")
+plt.xlabel("Number of Rounds")
+plt.ylabel("Number of Simulations")
+plt.show()
+
+#scatter plot showing how the number of rounds chanhges over different simulations
+plt.figure(figsize=(10, 5))
+sns.scatterplot(x=df["Simulation"], y=df["Rounds"], hue=df["Winner"], palette="coolwarm", alpha=0.6)
+plt.title("Rounds per Battle over Simulations")
+plt.xlabel("Simulation")
+plt.ylabel("Rounds")
+plt.show()
