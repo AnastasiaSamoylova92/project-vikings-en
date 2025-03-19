@@ -2,7 +2,6 @@ import random
 
 # Soldier
 
-
 class Soldier():
     def __init__(self, health, strength):
         self.health = health
@@ -13,7 +12,6 @@ class Soldier():
     
     def receiveDamage(self, damage):
         self.health -= damage
-
 
 # Viking
 
@@ -64,6 +62,7 @@ class Saxon(Soldier):
     def __init__(self, health, strength):
         self.health = health
         self.strength = strength
+
     def receiveDamage(self, damage):
         self.health -= damage
         global total_damage_done_by_vikings #* to update global variable for data tracking. Done here in case there is an ability that reduces damage
@@ -72,12 +71,14 @@ class Saxon(Soldier):
             return f"A Saxon has received {damage} points of damage"
         else:
             return f"A Saxon has died in combat"
+        
     def heal(self):
-        healed_amount = random.randint(5, 40) # random amount to be healed
+        healed_amount = random.randint(5, 40) #* random amount to be healed
         self.health += healed_amount
         global total_healed_amount #* to update the global variable for data tracking
         total_healed_amount += healed_amount
         return f"Pray thy gods! a Saxon has healed {healed_amount} points of damage!"
+
 
 # WAAAAAAAAAGH
 
@@ -104,7 +105,7 @@ class War():
     
     def saxonAttack(self):
         if self.saxonArmy == []:
-            return  #! We addded the condition to avoid that saxons attack when the list is empty
+            return  #! We added the condition to avoid that saxons attack when the list is empty
         saxon = random.choice(self.saxonArmy)
         viking = random.choice(self.vikingArmy)
         result = viking.receiveDamage(saxon.strength)
@@ -114,10 +115,21 @@ class War():
     
     def saxonHeal(self):
         if self.saxonArmy == []:
-            return  #! We addded the condition to avoid that saxons heal when the list is empty
+            return  #! We added the condition to avoid that saxons heal when the list is empty
         saxon = random.choice(self.saxonArmy)
         result = saxon.heal()
         return result
+    
+    def checkVikingBattleCry(self):
+        if self.vikingArmy == []:
+            return  #! We added the condition to avoid that vikings ability when the list is empty
+        battle_cry_chance = random.randint(1, 5)
+        if battle_cry_chance == 1: # 20% chance of happening
+            for viking in self.vikingArmy:
+                viking.strength += 10 # Increase the strengh of all vikings by 10
+            global battlecry_count #* to update the global variable for data tracking
+            battlecry_count += 1
+            return self.vikingArmy[0].battleCry() # just for the shout!
     
     def showStatus(self):
         if len(self.saxonArmy) == 0:
@@ -126,44 +138,57 @@ class War():
             return "Saxons have fought for their lives and survive another day..."
         else:
             return "Vikings and Saxons are still in the thick of battle."
-    
-# With a correction already implemented: dont forget to initialize an instance of Class "War"
 
-#global var
-soldier_names = ["albert","andres","archie","dani", "david","gerard","german","graham","imanol","laura"]
+#* Global Variables
+viking_names = [
+    "Ragnar", "Bjorn", "Erik", "Thorvald", "Harald", "Sigurd", "Ivar", "Leif", "Ulf", "Gunnar",
+    "Eirik", "Sven", "Hakon", "Rolf", "Sten", "Vidar", "Orm", "Viggo", "Torstein", "Halvar",
+    "Arne", "Trygve", "Odin", "Frode", "Ketil", "Runar", "Magnus", "Asmund", "Steinar", "Thorkell"
+]
 great_war = War()
 round = 0
-revived_count = 0
-blocked_count = 0
-total_healed_amount = 0
 total_damage_done_by_saxons = 0
 total_damage_done_by_vikings = 0
+total_healed_amount = 0
+revived_count = 0
+blocked_count = 0
+battlecry_count = 0
 
-#Create 5 Vikings
+#* Creating the Vikings for the War. 
+# quantity = 5
+# name = random from list
+# health = 100
+# strength = random from 0 to 100
 for i in range(0,5):
     if i:
-        great_war.addViking(Viking(soldier_names[random.randint(0,9)],100,random.randint(0,100)))
+        great_war.addViking(Viking(viking_names[random.randint(0,29)],100,random.randint(0,100)))
 
-#Create 5 Saxons
+#* Creating the Saxons for the War.
+# quantity = 5
+# health = 100
+# strength = random from 0 to 100
 for i in range(0,5):
     if i:
         great_war.addSaxon(Saxon(100,random.randint(0,100)))
-    
 
+#* Main War Loop
 while great_war.showStatus() == "Vikings and Saxons are still in the thick of battle.":
     print( great_war.vikingAttack() )
     print( great_war.saxonAttack() )
     print( great_war.saxonHeal() )
+    print( great_war.checkVikingBattleCry() )
     print(f"round: {round} // Viking army: {len(great_war.vikingArmy)} warriors",f"and Saxon army: {len(great_war.saxonArmy)} warriors")
     print(great_war.showStatus())
     round += 1
 
+#* Battle Summary
 print("\n=== BATTLE SUMMARY ===")
 print(f"Total rounds fought: {round}")
 print(f"Remaining Vikings: {len(great_war.vikingArmy)}")
 print(f"Remaining Saxons: {len(great_war.saxonArmy)}")
-print(f"Total Count of Viking revived: {revived_count}")
-print(f"Total Count of Viking blocks: {blocked_count}")
-print(f"Total Amount Healed by Saxons: {total_healed_amount}")
-print(f"Total Damage Done by Saxons: {total_damage_done_by_saxons}") # reduced by abilities (block)
-print(f"Total Damage Done by Vikings: {total_damage_done_by_vikings}") 
+print(f"Total Damage Done by Saxons: {total_damage_done_by_saxons}") # Total Damage reduced by abilities (block)
+print(f"Total Damage Done by Vikings: {total_damage_done_by_vikings}") # Total Damage reduced by abilities
+print(f"Total Amount Healed by Saxons: {total_healed_amount}") # chance of one Saxon heal every round
+print(f"Total Count of Viking revived: {revived_count}") # chance of revival after hit and dead
+print(f"Total Count of Viking blocks: {blocked_count}") # chance of block before hit
+print(f"Total Count of Viking Battle Cry activations: {battlecry_count}") # increase strength of all Vikings for the rest of the war
