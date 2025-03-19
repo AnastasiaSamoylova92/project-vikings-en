@@ -22,11 +22,23 @@ class Viking(Soldier):
         self.name = name
         self.health = health
         self.strength = strength
+        self.blocked_chance = 0.3 #! 30% chance of blocking
+        self.blocked_reduction = 0.5 #! 50% damage reduction when blocked
 
     def battleCry(self):
         return "Odin Owns You All!"
-
+    
+    def block_successfully(self):
+        return random.random() < self.blocked_chance
+  
     def receiveDamage(self, damage):
+        global blocked_count #!to capture the variable outside the function
+        if self.block_successfully():
+            damage = damage * self.blocked_reduction
+            blocked_count += 1 #! we add the global variable to count the blocks
+            blocking_message = f"{self.name} has blocked the attack. Damage reduced to {damage}"
+        else:
+            blocking_message = f"{self.name} has received {damage} points of damage"
         self.health -= damage
         if self.health > 0:
             return f"{self.name} has received {damage} points of damage"
@@ -39,6 +51,7 @@ class Viking(Soldier):
                 return f"The viking {self.name} has revived. He is now back to arms."
             else:
                 return f"{self.name} has died in act of combat"
+                    
 
 # Saxon
 
@@ -112,6 +125,7 @@ soldier_names = ["albert","andres","archie","dani", "david","gerard","german","g
 great_war = War()
 round = 0
 revived_count = 0
+blocked_count = 0
 
 #Create 5 Vikings
 for i in range(0,5):
@@ -137,4 +151,4 @@ print(f"Total rounds fought: {round}")
 print(f"Remaining Vikings: {len(great_war.vikingArmy)}")
 print(f"Remaining Saxons: {len(great_war.saxonArmy)}")
 print(f"Count of Viking revived: {revived_count}")
-
+print(f"Count of blocks: {blocked_count}")
