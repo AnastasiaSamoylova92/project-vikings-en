@@ -62,12 +62,15 @@ class Saxon(Soldier):
     def __init__(self, health, strength):
         self.health = health
         self.strength = strength
+        self.range_threshold = self.health * 0.3 #Range when below 30% of health
+
 
     def receiveDamage(self, damage):
         self.health -= damage
         global total_damage_done_by_vikings #* to update global variable for data tracking. Done here in case there is an ability that reduces damage
         total_damage_done_by_vikings += damage
         if self.health > 0:
+            self.checkIncreaseAttack()
             return f"A Saxon has received {damage} points of damage"
         else:
             return f"A Saxon has died in combat"
@@ -79,6 +82,15 @@ class Saxon(Soldier):
         total_healed_amount += healed_amount
         return f"Pray thy gods! a Saxon has healed {healed_amount} points of damage!"
 
+    def is_range(self):
+        return self.health <= self.range_threshold
+
+    def checkIncreaseAttack(self):
+        if self.is_range():
+            global rage_count
+            rage_count += 1
+            print("The Saxon is enter in RAGE MODE!")
+            self.strength += 5 # Plus 5 to damage 
 
 # WAAAAAAAAAGH
 
@@ -153,6 +165,7 @@ total_healed_amount = 0
 revived_count = 0
 blocked_count = 0
 battlecry_count = 0
+rage_count = 0
 
 #* Creating the Vikings for the War. 
 # quantity = 5
@@ -192,3 +205,4 @@ print(f"Total Amount Healed by Saxons: {total_healed_amount}") # chance of one S
 print(f"Total Count of Viking revived: {revived_count}") # chance of revival after hit and dead
 print(f"Total Count of Viking blocks: {blocked_count}") # chance of block before hit
 print(f"Total Count of Viking Battle Cry activations: {battlecry_count}") # increase strength of all Vikings for the rest of the war
+print(f"Total Count of Saxon rage mode: {rage_count}") # increase strength of all Saxon when they are equal or lower than 30% of health
