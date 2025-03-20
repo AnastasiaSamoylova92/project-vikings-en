@@ -203,10 +203,10 @@ for sim in range(num_simulations):
         great_war.checkVikingBattleCry()
         round_count += 1
 
-    battle_data.append([sim+1, great_war.showStatus(), round_count, len(great_war.vikingArmy), len(great_war.saxonArmy), revived_count ])
+    battle_data.append([sim+1, great_war.showStatus(), round_count, len(great_war.vikingArmy), len(great_war.saxonArmy), revived_count, blocked_count, battlecry_count, rage_count, total_damage_done_by_saxons, total_damage_done_by_vikings,total_healed_amount ])
 
 # Save data to Pandas DataFrame
-df = pd.DataFrame(battle_data, columns=["Simulation", "Winner", "Rounds", "Vikings Left", "Saxons Left", "Revived Vikings"])
+df = pd.DataFrame(battle_data, columns=["Simulation", "Winner", "Rounds", "Vikings Left", "Saxons Left", "Revived Vikings", "Vikings Block Count", "Viking Battlecry Count", "Saxon Rage Count", "Viking Damage Done", "Saxon Damage Done", "Saxon Healing Done"])
 
 #* Battle Summary
 """ print("\n=== BATTLE SUMMARY ===")
@@ -247,4 +247,18 @@ sns.scatterplot(x=df["Simulation"], y=df["Rounds"], hue=df["Winner"], palette="c
 plt.title("Rounds per Battle over Simulations")
 plt.xlabel("Simulation")
 plt.ylabel("Rounds")
+plt.show()
+
+plt.figure(figsize =(10, 5))
+sns.lineplot(x="Winner", y = "Vikings Block Count", data = df, palette = "coolwarm")
+plt.xlabel("Winner")
+plt.ylabel("Vikings Block Count")
+plt.title("Vikings Block Count")
+plt.show()
+
+plt.figure(figsize =(10, 5))
+sns.lineplot(x="Winner", y = "Saxon Healing Done", data = df, palette = "coolwarm")
+plt.xlabel("Winner")
+plt.ylabel("Saxon Healing Done")
+plt.title("Saxon Healing Done")
 plt.show()
