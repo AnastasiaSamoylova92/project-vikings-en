@@ -1,101 +1,1001 @@
-Simulation,Winner,Rounds,Vikings Left,Saxons Left,Revived Vikings,Vikings Block Count,Viking Battlecry Count,Saxon Rage Count,Viking Damage Done,Saxon Damage Done,Saxon Healing Done
-1,Saxons,13,0,1,2,5,2,0,886.0,531,230
-2,Vikings,9,4,0,0,2,4,2,287.5,790,199
-3,Vikings,11,2,0,0,3,3,5,359.0,762,234
-4,Saxons,9,0,1,0,2,2,2,480.0,630,224
-5,Saxons,18,0,1,0,5,2,2,556.0,785,410
-6,Vikings,13,2,0,1,5,2,5,443.0,815,248
-7,Vikings,14,1,0,0,5,6,6,464.5,950,315
-8,Vikings,9,3,0,1,5,2,1,318.5,654,130
-9,Saxons,11,0,4,0,3,1,0,641.0,123,285
-10,Saxons,11,0,1,1,4,0,3,524.0,720,294
-11,Saxons,13,0,1,0,5,1,3,537.0,711,243
-12,Saxons,12,0,3,0,2,1,1,543.0,444,297
-13,Vikings,15,3,0,1,7,5,1,396.0,926,371
-14,Saxons,12,0,3,0,8,2,1,538.0,362,274
-15,Vikings,13,4,0,0,2,3,1,170.0,809,278
-16,Vikings,12,1,0,2,4,2,5,559.0,876,262
-17,Vikings,14,4,0,0,3,2,4,129.5,832,310
-18,Saxons,8,0,4,0,2,2,0,575.0,248,174
-19,Vikings,10,2,0,1,3,1,1,390.0,715,260
-20,Saxons,9,0,1,0,5,4,3,570.5,652,186
-21,Vikings,8,3,0,0,2,3,3,325.0,694,92
-22,Saxons,12,0,1,1,1,1,2,595.5,774,300
-23,Vikings,15,3,0,1,3,4,1,475.0,892,362
-24,Vikings,9,3,0,0,2,3,3,322.0,661,161
-25,Vikings,9,3,0,0,3,4,2,164.5,615,144
-26,Vikings,9,3,0,0,1,1,2,320.0,732,164
-27,Saxons,20,0,3,1,4,2,3,523.5,590,464
-28,Vikings,16,1,0,1,5,1,4,607.5,928,347
-29,Saxons,11,0,2,1,2,2,2,596.0,557,256
-30,Vikings,9,2,0,0,2,5,2,404.0,692,127
-31,Vikings,15,1,0,3,5,4,4,623.0,839,276
-32,Vikings,14,4,0,2,5,4,3,379.0,937,305
-33,Saxons,24,0,1,0,9,2,3,476.5,963,524
-34,Saxons,13,0,2,1,3,5,2,580.5,560,320
-35,Vikings,12,4,0,0,7,5,1,195.0,793,241
-36,Saxons,16,0,2,0,5,3,3,464.0,628,263
-37,Saxons,10,0,1,0,2,1,0,493.0,555,167
-38,Saxons,11,0,1,0,4,4,4,453.5,698,259
-39,Saxons,16,0,2,0,5,2,4,438.0,768,374
-40,Vikings,17,3,0,2,7,3,4,430.0,1015,438
-41,Vikings,10,3,0,0,1,2,1,360.0,699,169
-42,Saxons,11,0,3,0,3,2,2,537.5,470,264
-43,Vikings,13,3,0,0,2,2,1,277.0,749,274
-44,Saxons,12,0,3,0,4,1,1,560.5,470,280
-45,Vikings,11,3,0,1,5,2,3,369.0,679,185
-46,Vikings,10,3,0,0,2,3,3,244.5,776,217
-47,Saxons,10,0,3,0,4,2,1,479.5,464,262
-48,Saxons,10,0,1,1,3,1,2,622.5,526,155
-49,Vikings,23,2,0,2,5,1,4,485.0,1003,449
-50,Vikings,13,3,0,4,5,1,3,642.5,886,332
-51,Saxons,13,0,3,2,5,5,2,732.5,469,286
-52,Saxons,17,0,3,1,4,1,4,569.0,518,370
-53,Vikings,13,2,0,2,3,3,2,491.0,712,260
-54,Vikings,12,4,0,1,4,3,2,302.0,713,247
-55,Vikings,13,4,0,0,4,1,2,303.0,758,234
-56,Vikings,8,2,0,0,2,1,1,349.0,740,154
-57,Vikings,10,2,0,0,1,1,1,305.5,698,195
-58,Vikings,8,2,0,1,3,1,2,325.0,753,145
-59,Vikings,10,3,0,1,3,3,3,450.5,777,183
-60,Saxons,12,0,2,1,3,2,0,640.0,655,293
-61,Saxons,10,0,3,1,5,2,1,620.0,394,209
-62,Vikings,10,3,0,2,2,5,4,435.0,1034,236
-63,Saxons,11,0,1,0,3,2,3,488.5,702,273
-64,Vikings,11,2,0,0,3,4,2,390.0,680,188
-65,Vikings,10,3,0,0,1,2,2,306.0,768,192
-66,Saxons,10,0,3,0,5,0,1,531.5,330,199
-67,Vikings,9,1,0,1,1,1,1,648.5,690,172
-68,Vikings,10,2,0,2,2,1,4,656.0,819,185
-69,Vikings,15,2,0,0,4,2,3,334.0,791,322
-70,Vikings,8,2,0,0,2,3,1,343.0,697,120
-71,Vikings,10,2,0,0,5,3,5,332.0,788,212
-72,Vikings,9,3,0,0,4,1,4,317.0,806,193
-73,Vikings,11,2,0,0,4,2,2,313.0,703,198
-74,Vikings,14,1,0,2,5,2,3,572.0,856,293
-75,Vikings,9,2,0,0,3,2,4,345.5,819,199
-76,Vikings,9,2,0,0,0,2,1,344.0,683,187
-77,Vikings,9,3,0,0,2,2,2,227.0,793,157
-78,Vikings,8,1,0,0,1,2,1,388.5,627,96
-79,Vikings,9,1,0,0,1,3,2,510.5,782,176
-80,Saxons,17,0,1,1,8,3,2,519.5,806,457
-81,Vikings,28,4,0,2,5,4,3,360.5,1189,684
-82,Vikings,11,3,0,1,5,4,2,334.0,821,212
-83,Vikings,11,1,0,0,2,4,3,420.0,665,183
-84,Vikings,11,2,0,0,3,3,2,311.5,783,195
-85,Vikings,12,2,0,0,3,4,1,270.0,846,271
-86,Vikings,13,4,0,0,3,2,5,323.5,831,238
-87,Vikings,13,2,0,0,3,2,6,338.5,815,236
-88,Saxons,11,0,1,1,5,2,5,589.0,743,185
-89,Saxons,18,0,1,0,6,4,2,451.5,843,423
-90,Saxons,12,0,2,1,2,5,2,678.0,568,264
-91,Saxons,9,0,3,0,2,1,3,545.0,413,175
-92,Vikings,13,2,0,0,3,1,5,370.0,726,280
-93,Vikings,10,3,0,0,3,3,1,286.5,677,188
-94,Vikings,12,1,0,1,1,4,4,489.0,826,280
-95,Saxons,18,0,3,1,6,2,3,550.5,545,301
-96,Saxons,12,0,2,0,3,3,2,589.0,492,199
-97,Vikings,8,3,0,0,1,3,3,284.0,761,144
-98,Vikings,9,2,0,0,1,5,1,461.0,804,192
-99,Vikings,11,4,0,2,2,2,5,386.5,807,224
-100,Vikings,8,3,0,0,2,2,2,284.5,687,157
+Simulation,Outcome,Rounds,Vikings Left,Saxons Left,Revived Vikings,Vikings Block Count,Viking Battlecry Count,Saxon Rage Count,Viking Damage Done,Saxon Damage Done,Saxon Healing Done,Winner
+1,Saxons have fought for their lives and survive another day...,10,0,1,0,2,1,2,504.0,706,216,Saxons
+2,Vikings have won the war of the century!,27,1,0,4,5,2,6,664.0,989,482,Vikings
+3,Vikings have won the war of the century!,21,1,0,1,5,1,4,504.5,977,469,Vikings
+4,Saxons have fought for their lives and survive another day...,8,0,4,2,1,0,2,655.0,258,189,Saxons
+5,Saxons have fought for their lives and survive another day...,14,0,3,1,5,2,2,541.0,372,319,Saxons
+6,Saxons have fought for their lives and survive another day...,10,0,3,0,3,1,1,506.0,460,237,Saxons
+7,Saxons have fought for their lives and survive another day...,13,0,2,2,6,0,3,648.0,555,313,Saxons
+8,Vikings have won the war of the century!,12,2,0,1,5,4,2,459.0,753,223,Vikings
+9,Vikings have won the war of the century!,15,3,0,1,6,4,3,319.5,895,303,Vikings
+10,Vikings have won the war of the century!,11,4,0,0,4,3,2,124.0,826,246,Vikings
+11,Vikings have won the war of the century!,9,4,0,0,1,3,3,88.5,820,191,Vikings
+12,Saxons have fought for their lives and survive another day...,17,0,2,2,5,3,4,733.0,667,361,Saxons
+13,Vikings have won the war of the century!,14,3,0,1,2,2,2,359.5,899,376,Vikings
+14,Vikings have won the war of the century!,9,3,0,0,2,2,1,338.0,792,184,Vikings
+15,Vikings have won the war of the century!,9,2,0,0,4,3,1,390.0,785,180,Vikings
+16,Saxons have fought for their lives and survive another day...,17,0,2,0,6,4,1,478.5,681,371,Saxons
+17,Saxons have fought for their lives and survive another day...,20,0,2,0,5,4,4,557.0,915,490,Saxons
+18,Vikings have won the war of the century!,12,2,0,0,5,2,4,468.0,909,284,Vikings
+19,Saxons have fought for their lives and survive another day...,10,0,3,1,1,1,0,556.5,446,246,Saxons
+20,Vikings have won the war of the century!,10,1,0,1,5,1,2,623.5,757,201,Vikings
+21,Vikings have won the war of the century!,9,4,0,0,4,1,4,226.5,699,145,Vikings
+22,Vikings have won the war of the century!,12,3,0,0,1,2,6,299.0,735,249,Vikings
+23,Saxons have fought for their lives and survive another day...,17,0,3,2,8,2,1,745.0,372,339,Saxons
+24,Vikings have won the war of the century!,9,3,0,1,6,2,3,364.5,801,209,Vikings
+25,Vikings have won the war of the century!,12,3,0,0,7,1,4,314.5,812,224,Vikings
+26,Saxons have fought for their lives and survive another day...,15,0,2,0,3,2,2,646.5,609,302,Saxons
+27,Vikings have won the war of the century!,12,1,0,1,4,3,2,659.0,690,226,Vikings
+28,Vikings have won the war of the century!,9,2,0,0,2,4,2,589.5,793,191,Vikings
+29,Vikings have won the war of the century!,9,4,0,0,1,2,1,152.5,639,172,Vikings
+30,Vikings have won the war of the century!,8,3,0,0,2,1,2,250.0,679,134,Vikings
+31,Saxons have fought for their lives and survive another day...,18,0,2,1,6,2,2,603.5,672,361,Saxons
+32,Vikings have won the war of the century!,11,3,0,1,3,3,3,275.5,769,233,Vikings
+33,Vikings have won the war of the century!,7,4,0,0,4,3,2,21.5,697,154,Vikings
+34,Vikings have won the war of the century!,8,2,0,0,2,2,2,335.5,698,137,Vikings
+35,Vikings have won the war of the century!,10,1,0,0,4,3,2,446.5,806,190,Vikings
+36,Saxons have fought for their lives and survive another day...,9,0,3,0,2,2,0,486.5,275,213,Saxons
+37,Saxons have fought for their lives and survive another day...,9,0,1,0,4,3,1,443.0,683,216,Saxons
+38,Saxons have fought for their lives and survive another day...,9,0,1,1,4,3,1,581.0,470,199,Saxons
+39,Vikings have won the war of the century!,12,1,0,0,0,3,3,513.0,811,265,Vikings
+40,Vikings have won the war of the century!,12,4,0,3,4,2,3,538.5,705,222,Vikings
+41,Vikings have won the war of the century!,9,3,0,0,2,2,2,256.0,788,202,Vikings
+42,Vikings have won the war of the century!,12,1,0,2,4,4,2,628.5,662,193,Vikings
+43,Vikings have won the war of the century!,8,4,0,1,4,2,3,249.0,769,158,Vikings
+44,Saxons have fought for their lives and survive another day...,10,0,2,1,1,2,2,645.5,522,187,Saxons
+45,Vikings have won the war of the century!,12,3,0,0,4,4,2,360.5,707,212,Vikings
+46,Saxons have fought for their lives and survive another day...,16,0,3,4,5,2,2,966.5,602,456,Saxons
+47,Saxons have fought for their lives and survive another day...,11,0,1,0,3,4,4,499.5,726,258,Saxons
+48,Vikings have won the war of the century!,9,4,0,0,2,2,1,268.0,681,202,Vikings
+49,Vikings have won the war of the century!,13,2,0,0,2,3,1,380.5,847,291,Vikings
+50,Saxons have fought for their lives and survive another day...,8,0,2,0,0,0,2,680.0,450,167,Saxons
+51,Vikings have won the war of the century!,8,3,0,0,2,1,1,312.0,692,179,Vikings
+52,Saxons have fought for their lives and survive another day...,10,0,1,0,2,1,1,637.0,659,195,Saxons
+53,Vikings have won the war of the century!,17,4,0,0,6,7,2,218.0,928,374,Vikings
+54,Vikings have won the war of the century!,10,3,0,1,1,2,2,374.0,637,180,Vikings
+55,Vikings have won the war of the century!,9,3,0,0,4,4,0,316.0,659,189,Vikings
+56,Saxons have fought for their lives and survive another day...,13,0,3,0,4,2,1,461.5,319,260,Saxons
+57,Vikings have won the war of the century!,12,1,0,0,4,0,2,419.0,882,320,Vikings
+58,Vikings have won the war of the century!,21,2,0,3,9,3,6,658.5,939,432,Vikings
+59,Saxons have fought for their lives and survive another day...,14,0,2,0,6,2,1,453.0,421,290,Saxons
+60,Vikings have won the war of the century!,8,4,0,0,2,4,2,96.0,622,145,Vikings
+61,Saxons have fought for their lives and survive another day...,10,0,2,0,3,1,0,488.5,414,270,Saxons
+62,Saxons have fought for their lives and survive another day...,10,0,1,0,2,2,4,504.5,741,314,Saxons
+63,Vikings have won the war of the century!,12,3,0,0,3,4,5,271.0,920,185,Vikings
+64,Vikings have won the war of the century!,10,1,0,0,5,3,2,528.5,788,197,Vikings
+65,Vikings have won the war of the century!,15,3,0,1,3,4,4,426.0,732,233,Vikings
+66,Vikings have won the war of the century!,18,1,0,1,3,4,5,563.0,911,358,Vikings
+67,Saxons have fought for their lives and survive another day...,12,0,1,1,4,3,1,658.0,695,256,Saxons
+68,Vikings have won the war of the century!,13,1,0,1,5,3,2,579.5,798,310,Vikings
+69,Vikings have won the war of the century!,10,1,0,0,3,0,4,450.5,859,191,Vikings
+70,Saxons have fought for their lives and survive another day...,8,0,4,0,3,2,0,466.0,286,247,Saxons
+71,Vikings have won the war of the century!,10,2,0,0,3,1,3,385.5,728,195,Vikings
+72,Vikings have won the war of the century!,11,2,0,1,1,2,4,425.5,820,222,Vikings
+73,Saxons have fought for their lives and survive another day...,12,0,1,2,2,3,2,678.0,670,192,Saxons
+74,Vikings have won the war of the century!,10,1,0,1,4,1,2,540.0,722,212,Vikings
+75,Saxons have fought for their lives and survive another day...,11,0,2,2,3,2,2,663.5,541,249,Saxons
+76,Saxons have fought for their lives and survive another day...,15,0,2,3,7,2,5,846.0,645,286,Saxons
+77,Vikings have won the war of the century!,10,2,0,1,3,2,2,472.0,646,174,Vikings
+78,Vikings have won the war of the century!,11,4,0,0,2,2,1,238.5,727,229,Vikings
+79,Vikings have won the war of the century!,14,2,0,0,5,2,3,468.0,917,320,Vikings
+80,Vikings have won the war of the century!,9,4,0,0,1,3,2,155.5,674,190,Vikings
+81,Vikings have won the war of the century!,20,3,0,0,6,4,2,354.5,899,447,Vikings
+82,Saxons have fought for their lives and survive another day...,8,0,1,0,1,0,3,548.5,591,165,Saxons
+83,Vikings have won the war of the century!,10,3,0,2,4,3,2,388.0,806,212,Vikings
+84,Vikings have won the war of the century!,15,3,0,1,5,4,7,368.5,969,303,Vikings
+85,Vikings have won the war of the century!,10,2,0,1,2,4,3,402.0,712,167,Vikings
+86,Saxons have fought for their lives and survive another day...,9,0,1,0,2,3,2,544.0,453,172,Saxons
+87,Vikings have won the war of the century!,9,2,0,0,2,3,3,327.0,693,180,Vikings
+88,Saxons have fought for their lives and survive another day...,8,0,1,0,0,1,3,517.0,623,190,Saxons
+89,Saxons have fought for their lives and survive another day...,12,0,2,0,6,3,3,557.0,547,235,Saxons
+90,Vikings have won the war of the century!,10,1,0,1,4,2,3,653.0,833,250,Vikings
+91,Vikings have won the war of the century!,11,3,0,0,4,2,4,308.0,738,221,Vikings
+92,Saxons have fought for their lives and survive another day...,10,0,2,1,2,3,4,559.5,555,195,Saxons
+93,Saxons have fought for their lives and survive another day...,11,0,2,0,5,0,2,552.5,429,199,Saxons
+94,Vikings have won the war of the century!,11,2,0,0,6,0,5,379.5,813,259,Vikings
+95,Vikings have won the war of the century!,7,4,0,0,3,3,1,122.0,703,98,Vikings
+96,Saxons have fought for their lives and survive another day...,20,0,1,0,6,3,2,493.0,831,444,Saxons
+97,Vikings have won the war of the century!,14,3,0,0,4,2,1,306.0,834,375,Vikings
+98,Vikings have won the war of the century!,12,2,0,0,5,1,1,410.0,712,252,Vikings
+99,Saxons have fought for their lives and survive another day...,9,0,3,0,3,4,2,459.0,427,139,Saxons
+100,Vikings have won the war of the century!,8,2,0,1,1,1,1,556.0,576,111,Vikings
+101,Saxons have fought for their lives and survive another day...,9,0,4,0,1,3,1,464.0,256,124,Saxons
+102,Saxons have fought for their lives and survive another day...,12,0,2,1,2,1,2,572.5,470,256,Saxons
+103,Vikings have won the war of the century!,8,1,0,0,1,3,3,378.5,802,139,Vikings
+104,Saxons have fought for their lives and survive another day...,11,0,1,2,2,2,0,850.0,652,276,Saxons
+105,Vikings have won the war of the century!,17,4,0,0,6,4,4,333.5,809,356,Vikings
+106,Saxons have fought for their lives and survive another day...,9,0,2,0,2,3,3,542.5,412,191,Saxons
+107,Vikings have won the war of the century!,10,1,0,1,1,1,3,576.5,741,188,Vikings
+108,Saxons have fought for their lives and survive another day...,18,0,1,2,10,3,2,547.0,754,452,Saxons
+109,Vikings have won the war of the century!,11,2,0,3,2,3,3,688.0,785,238,Vikings
+110,Saxons have fought for their lives and survive another day...,11,0,1,0,1,3,1,541.5,566,323,Saxons
+111,Vikings have won the war of the century!,13,2,0,1,1,2,4,476.0,801,300,Vikings
+112,Saxons have fought for their lives and survive another day...,11,0,1,0,6,2,1,478.0,568,238,Saxons
+113,Vikings have won the war of the century!,15,4,0,1,3,3,3,248.0,896,323,Vikings
+114,Vikings have won the war of the century!,13,1,0,1,2,4,4,475.0,805,283,Vikings
+115,Saxons have fought for their lives and survive another day...,13,0,1,2,2,1,1,793.0,644,250,Saxons
+116,Vikings have won the war of the century!,12,1,0,0,4,2,4,388.0,730,239,Vikings
+117,Saxons have fought for their lives and survive another day...,14,0,1,0,4,1,7,575.0,681,378,Saxons
+118,Vikings have won the war of the century!,8,1,0,0,2,1,3,369.5,667,138,Vikings
+119,Saxons have fought for their lives and survive another day...,9,0,4,1,0,4,1,548.0,244,238,Saxons
+120,Vikings have won the war of the century!,12,3,0,1,5,2,4,397.0,806,190,Vikings
+121,Vikings have won the war of the century!,8,3,0,2,1,2,3,348.0,816,166,Vikings
+122,Saxons have fought for their lives and survive another day...,7,0,3,0,1,2,1,611.5,305,148,Saxons
+123,Vikings have won the war of the century!,19,2,0,2,5,4,2,524.0,873,356,Vikings
+124,Saxons have fought for their lives and survive another day...,12,0,3,0,3,4,2,545.5,463,263,Saxons
+125,Vikings have won the war of the century!,5,4,0,0,1,3,1,126.5,560,59,Vikings
+126,Vikings have won the war of the century!,11,1,0,0,5,1,2,373.5,682,192,Vikings
+127,Vikings have won the war of the century!,10,4,0,2,4,1,2,390.0,652,151,Vikings
+128,Saxons have fought for their lives and survive another day...,12,0,2,1,3,4,2,663.0,506,284,Saxons
+129,Saxons have fought for their lives and survive another day...,15,0,1,3,7,3,3,792.5,742,327,Saxons
+130,Saxons have fought for their lives and survive another day...,10,0,4,0,1,1,0,546.5,225,245,Saxons
+131,Saxons have fought for their lives and survive another day...,12,0,4,2,2,2,0,746.5,289,293,Saxons
+132,Vikings have won the war of the century!,23,2,0,0,4,3,8,336.5,1117,500,Vikings
+133,Vikings have won the war of the century!,14,4,0,1,3,4,5,333.5,788,249,Vikings
+134,Saxons have fought for their lives and survive another day...,14,0,2,1,3,2,0,610.0,568,317,Saxons
+135,Vikings have won the war of the century!,7,4,0,0,1,4,2,162.5,720,147,Vikings
+136,Vikings have won the war of the century!,11,2,0,0,4,3,2,322.5,745,253,Vikings
+137,Vikings have won the war of the century!,9,2,0,1,1,1,1,374.0,672,165,Vikings
+138,Saxons have fought for their lives and survive another day...,8,0,3,0,2,1,3,519.5,370,94,Saxons
+139,Saxons have fought for their lives and survive another day...,11,0,1,0,3,1,2,530.5,674,210,Saxons
+140,Vikings have won the war of the century!,8,3,0,0,2,4,0,198.0,666,133,Vikings
+141,Saxons have fought for their lives and survive another day...,11,0,1,0,4,0,4,556.5,829,272,Saxons
+142,Vikings have won the war of the century!,11,4,0,0,4,0,3,135.5,737,196,Vikings
+143,Saxons have fought for their lives and survive another day...,16,0,1,2,6,2,1,662.0,778,409,Saxons
+144,Vikings have won the war of the century!,9,3,0,1,4,1,4,274.0,824,125,Vikings
+145,Vikings have won the war of the century!,10,1,0,0,2,1,4,448.5,714,211,Vikings
+146,Saxons have fought for their lives and survive another day...,11,0,1,0,6,0,2,539.5,572,265,Saxons
+147,Vikings have won the war of the century!,17,1,0,2,6,5,4,545.0,880,301,Vikings
+148,Vikings have won the war of the century!,13,1,0,0,4,3,4,469.0,852,257,Vikings
+149,Saxons have fought for their lives and survive another day...,15,0,3,3,6,2,2,718.5,387,369,Saxons
+150,Vikings have won the war of the century!,11,3,0,0,0,0,2,242.0,693,212,Vikings
+151,Saxons have fought for their lives and survive another day...,5,0,4,0,2,0,3,414.0,297,111,Saxons
+152,Vikings have won the war of the century!,14,4,0,0,4,4,4,259.0,832,271,Vikings
+153,Saxons have fought for their lives and survive another day...,12,0,1,1,3,3,3,523.0,550,210,Saxons
+154,Saxons have fought for their lives and survive another day...,12,0,2,0,2,1,1,528.0,496,274,Saxons
+155,Saxons have fought for their lives and survive another day...,16,0,1,2,4,4,3,691.5,784,365,Saxons
+156,Saxons have fought for their lives and survive another day...,11,0,2,1,4,2,2,592.0,598,213,Saxons
+157,Vikings have won the war of the century!,8,4,0,0,3,3,1,181.5,641,161,Vikings
+158,Saxons have fought for their lives and survive another day...,9,0,2,0,5,1,1,486.5,417,178,Saxons
+159,Saxons have fought for their lives and survive another day...,12,0,1,1,3,5,3,572.0,783,225,Saxons
+160,Saxons have fought for their lives and survive another day...,13,0,3,2,5,2,1,642.0,460,302,Saxons
+161,Saxons have fought for their lives and survive another day...,9,0,3,0,4,1,2,549.5,454,224,Saxons
+162,Vikings have won the war of the century!,11,3,0,2,3,2,1,490.0,803,282,Vikings
+163,Saxons have fought for their lives and survive another day...,9,0,1,0,0,3,1,482.0,462,206,Saxons
+164,Vikings have won the war of the century!,11,2,0,0,3,3,2,378.5,779,260,Vikings
+165,Vikings have won the war of the century!,10,4,0,0,5,3,2,196.0,787,214,Vikings
+166,Vikings have won the war of the century!,15,2,0,0,5,4,6,356.5,917,343,Vikings
+167,Vikings have won the war of the century!,9,2,0,0,3,0,3,397.0,768,149,Vikings
+168,Saxons have fought for their lives and survive another day...,9,0,1,0,5,2,2,459.5,556,142,Saxons
+169,Vikings have won the war of the century!,12,1,0,0,3,1,1,356.5,691,223,Vikings
+170,Vikings have won the war of the century!,11,3,0,0,2,2,3,310.0,880,174,Vikings
+171,Saxons have fought for their lives and survive another day...,10,0,4,0,5,1,4,543.5,512,202,Saxons
+172,Saxons have fought for their lives and survive another day...,10,0,1,0,3,1,2,520.0,576,185,Saxons
+173,Vikings have won the war of the century!,12,2,0,0,4,4,4,400.0,950,280,Vikings
+174,Vikings have won the war of the century!,15,1,0,2,7,3,5,612.5,883,260,Vikings
+175,Vikings have won the war of the century!,10,2,0,1,3,3,1,390.5,723,226,Vikings
+176,Saxons have fought for their lives and survive another day...,11,0,1,0,5,3,4,538.5,593,284,Saxons
+177,Vikings have won the war of the century!,9,3,0,0,1,4,1,273.0,752,200,Vikings
+178,Vikings have won the war of the century!,10,4,0,0,2,4,2,219.0,682,138,Vikings
+179,Vikings have won the war of the century!,6,3,0,0,0,2,1,393.0,553,67,Vikings
+180,Vikings have won the war of the century!,10,3,0,1,1,4,4,403.5,758,248,Vikings
+181,Vikings have won the war of the century!,10,2,0,0,3,2,3,398.5,709,175,Vikings
+182,Vikings have won the war of the century!,14,2,0,2,4,1,2,448.0,740,252,Vikings
+183,Vikings have won the war of the century!,12,1,0,0,4,1,7,467.0,764,226,Vikings
+184,Vikings have won the war of the century!,9,2,0,1,2,2,2,365.5,720,145,Vikings
+185,Saxons have fought for their lives and survive another day...,13,0,1,1,4,5,1,636.5,690,348,Saxons
+186,Vikings have won the war of the century!,14,4,0,3,5,3,3,508.0,779,314,Vikings
+187,Saxons have fought for their lives and survive another day...,12,0,4,0,1,1,3,467.5,346,278,Saxons
+188,Vikings have won the war of the century!,10,4,0,0,0,3,3,249.0,786,185,Vikings
+189,Saxons have fought for their lives and survive another day...,14,0,2,1,4,4,3,574.0,679,370,Saxons
+190,Saxons have fought for their lives and survive another day...,9,0,3,0,4,0,2,548.0,386,241,Saxons
+191,Vikings have won the war of the century!,11,2,0,0,4,0,3,373.0,786,257,Vikings
+192,Vikings have won the war of the century!,13,3,0,0,6,2,4,299.0,833,297,Vikings
+193,Vikings have won the war of the century!,8,4,0,0,1,4,1,188.0,792,171,Vikings
+194,Saxons have fought for their lives and survive another day...,12,0,3,0,3,4,1,720.5,416,306,Saxons
+195,Saxons have fought for their lives and survive another day...,9,0,3,0,1,1,1,502.0,274,229,Saxons
+196,Vikings have won the war of the century!,14,2,0,1,5,3,2,489.0,770,252,Vikings
+197,Vikings have won the war of the century!,8,4,0,0,3,3,2,85.5,749,190,Vikings
+198,Saxons have fought for their lives and survive another day...,9,0,4,0,2,2,0,478.5,197,204,Saxons
+199,Saxons have fought for their lives and survive another day...,9,0,4,1,0,1,2,616.0,328,206,Saxons
+200,Vikings have won the war of the century!,8,1,0,0,1,4,1,427.5,662,185,Vikings
+201,Vikings have won the war of the century!,9,4,0,0,5,2,3,179.5,774,184,Vikings
+202,Saxons have fought for their lives and survive another day...,10,0,1,0,3,2,1,564.0,626,203,Saxons
+203,Saxons have fought for their lives and survive another day...,11,0,1,2,3,1,1,702.5,620,258,Saxons
+204,Vikings have won the war of the century!,15,2,0,0,5,3,4,276.0,903,346,Vikings
+205,Vikings have won the war of the century!,16,3,0,0,3,3,5,290.5,847,320,Vikings
+206,Vikings have won the war of the century!,10,4,0,1,1,1,3,145.5,712,169,Vikings
+207,Saxons have fought for their lives and survive another day...,11,0,4,1,3,2,0,559.0,262,296,Saxons
+208,Vikings have won the war of the century!,11,3,0,0,4,1,2,307.5,675,199,Vikings
+209,Vikings have won the war of the century!,17,1,0,3,3,4,1,742.0,763,311,Vikings
+210,Vikings have won the war of the century!,28,2,0,3,10,2,7,632.0,1059,592,Vikings
+211,Vikings have won the war of the century!,17,3,0,1,4,5,2,305.0,943,423,Vikings
+212,Saxons have fought for their lives and survive another day...,16,0,1,3,2,2,2,683.5,680,286,Saxons
+213,Vikings have won the war of the century!,11,1,0,0,1,3,0,409.5,803,321,Vikings
+214,Saxons have fought for their lives and survive another day...,10,0,3,1,2,0,1,569.5,457,242,Saxons
+215,Vikings have won the war of the century!,10,2,0,0,1,2,3,437.0,785,226,Vikings
+216,Saxons have fought for their lives and survive another day...,10,0,2,1,0,3,2,584.0,514,254,Saxons
+217,Vikings have won the war of the century!,11,1,0,0,3,1,3,426.5,827,219,Vikings
+218,Vikings have won the war of the century!,10,1,0,1,1,2,2,482.5,779,149,Vikings
+219,Vikings have won the war of the century!,17,2,0,1,4,2,2,429.5,930,405,Vikings
+220,Vikings have won the war of the century!,17,4,0,0,4,4,4,159.0,874,365,Vikings
+221,Vikings have won the war of the century!,12,3,0,1,2,3,2,434.5,653,130,Vikings
+222,Vikings have won the war of the century!,8,3,0,0,4,1,0,204.0,667,139,Vikings
+223,Vikings have won the war of the century!,10,1,0,0,4,4,1,349.5,676,173,Vikings
+224,Vikings have won the war of the century!,16,4,0,1,3,0,0,283.5,816,369,Vikings
+225,Saxons have fought for their lives and survive another day...,14,0,4,3,4,2,4,836.0,498,411,Saxons
+226,Saxons have fought for their lives and survive another day...,9,0,2,1,3,1,2,605.5,429,242,Saxons
+227,Saxons have fought for their lives and survive another day...,9,0,1,0,4,3,2,499.5,696,224,Saxons
+228,Saxons have fought for their lives and survive another day...,12,0,3,0,6,1,2,429.0,409,290,Saxons
+229,Saxons have fought for their lives and survive another day...,10,0,1,1,3,4,2,658.5,643,211,Saxons
+230,Vikings have won the war of the century!,14,2,0,0,6,6,4,410.0,882,313,Vikings
+231,Saxons have fought for their lives and survive another day...,7,0,2,0,3,3,2,512.5,616,139,Saxons
+232,Saxons have fought for their lives and survive another day...,8,0,3,0,3,0,2,543.5,301,120,Saxons
+233,Vikings have won the war of the century!,15,2,0,0,7,5,2,310.5,838,285,Vikings
+234,Vikings have won the war of the century!,14,3,0,0,3,1,2,209.5,769,267,Vikings
+235,Saxons have fought for their lives and survive another day...,12,0,1,0,5,2,1,516.5,680,295,Saxons
+236,Saxons have fought for their lives and survive another day...,15,0,1,1,5,2,1,507.5,677,335,Saxons
+237,Saxons have fought for their lives and survive another day...,9,0,2,0,2,2,3,473.0,490,162,Saxons
+238,Vikings have won the war of the century!,7,3,0,0,0,2,2,294.0,682,154,Vikings
+239,Vikings have won the war of the century!,9,1,0,1,1,2,0,628.5,629,156,Vikings
+240,Saxons have fought for their lives and survive another day...,13,0,2,1,5,1,2,644.0,560,294,Saxons
+241,Saxons have fought for their lives and survive another day...,17,0,1,0,4,4,4,482.5,793,396,Saxons
+242,Vikings have won the war of the century!,8,3,0,0,3,2,2,313.0,669,131,Vikings
+243,Vikings have won the war of the century!,9,2,0,0,2,2,2,546.0,741,171,Vikings
+244,Vikings have won the war of the century!,10,1,0,1,2,4,3,454.5,780,174,Vikings
+245,Saxons have fought for their lives and survive another day...,10,0,1,0,4,4,1,592.0,778,278,Saxons
+246,Saxons have fought for their lives and survive another day...,24,0,2,5,6,1,6,954.5,912,641,Saxons
+247,Vikings have won the war of the century!,7,4,0,0,4,2,0,122.0,658,143,Vikings
+248,Saxons have fought for their lives and survive another day...,9,0,3,0,2,2,1,598.5,349,185,Saxons
+249,Saxons have fought for their lives and survive another day...,14,0,3,0,5,3,2,462.5,416,324,Saxons
+250,Vikings have won the war of the century!,12,3,0,0,1,2,4,362.0,800,239,Vikings
+251,Vikings have won the war of the century!,16,3,0,0,3,2,4,344.0,796,342,Vikings
+252,Vikings have won the war of the century!,9,3,0,0,2,2,1,186.0,706,203,Vikings
+253,Saxons have fought for their lives and survive another day...,10,0,1,0,5,4,0,507.5,516,230,Saxons
+254,Vikings have won the war of the century!,12,4,0,1,2,2,6,302.5,802,277,Vikings
+255,Vikings have won the war of the century!,12,2,0,1,2,2,1,420.0,737,222,Vikings
+256,Saxons have fought for their lives and survive another day...,11,0,2,1,3,1,3,615.0,687,214,Saxons
+257,Vikings have won the war of the century!,13,2,0,1,4,3,2,475.5,894,261,Vikings
+258,Saxons have fought for their lives and survive another day...,10,0,4,0,3,2,0,569.0,308,272,Saxons
+259,Vikings have won the war of the century!,9,3,0,1,2,1,2,344.0,672,166,Vikings
+260,Saxons have fought for their lives and survive another day...,9,0,2,0,3,4,2,459.5,560,188,Saxons
+261,Saxons have fought for their lives and survive another day...,7,0,1,0,0,1,2,454.0,558,170,Saxons
+262,Vikings have won the war of the century!,7,2,0,0,2,1,1,357.0,613,111,Vikings
+263,Vikings have won the war of the century!,10,3,0,0,4,2,2,377.0,840,273,Vikings
+264,Vikings have won the war of the century!,17,3,0,2,10,6,4,425.5,950,351,Vikings
+265,Vikings have won the war of the century!,8,3,0,0,2,3,4,265.5,740,155,Vikings
+266,Vikings have won the war of the century!,12,3,0,1,6,2,5,389.5,678,195,Vikings
+267,Saxons have fought for their lives and survive another day...,8,0,1,1,4,1,3,529.5,638,163,Saxons
+268,Vikings have won the war of the century!,9,3,0,1,3,5,1,330.5,774,173,Vikings
+269,Saxons have fought for their lives and survive another day...,12,0,1,1,5,3,2,479.5,742,334,Saxons
+270,Saxons have fought for their lives and survive another day...,13,0,3,1,4,4,2,555.0,396,269,Saxons
+271,Vikings have won the war of the century!,10,4,0,0,2,3,3,141.5,748,202,Vikings
+272,Vikings have won the war of the century!,9,2,0,0,3,2,0,317.0,647,178,Vikings
+273,Saxons have fought for their lives and survive another day...,10,0,3,0,5,1,2,487.0,495,221,Saxons
+274,Vikings have won the war of the century!,13,3,0,0,3,2,2,312.0,903,264,Vikings
+275,Saxons have fought for their lives and survive another day...,8,0,2,0,2,2,3,485.0,458,161,Saxons
+276,Vikings have won the war of the century!,14,2,0,0,5,2,2,411.0,917,398,Vikings
+277,Saxons have fought for their lives and survive another day...,12,0,1,1,4,2,3,767.5,528,277,Saxons
+278,Saxons have fought for their lives and survive another day...,11,0,1,1,4,2,1,698.0,620,237,Saxons
+279,Vikings have won the war of the century!,16,2,0,0,7,3,3,378.0,990,425,Vikings
+280,Vikings have won the war of the century!,7,3,0,1,2,4,3,378.5,805,116,Vikings
+281,Saxons have fought for their lives and survive another day...,9,0,1,0,2,2,2,446.5,540,188,Saxons
+282,Vikings have won the war of the century!,12,1,0,1,2,3,2,490.0,845,292,Vikings
+283,Vikings have won the war of the century!,11,3,0,1,3,3,2,339.5,737,213,Vikings
+284,Saxons have fought for their lives and survive another day...,9,0,1,1,1,2,1,572.0,533,178,Saxons
+285,Vikings have won the war of the century!,12,4,0,0,2,3,1,193.0,753,247,Vikings
+286,Vikings have won the war of the century!,11,3,0,0,4,3,2,222.0,807,210,Vikings
+287,Vikings have won the war of the century!,10,3,0,0,4,2,2,307.0,729,175,Vikings
+288,Saxons have fought for their lives and survive another day...,8,0,1,0,1,4,2,698.0,497,120,Saxons
+289,Vikings have won the war of the century!,15,3,0,1,5,2,6,395.0,931,345,Vikings
+290,Saxons have fought for their lives and survive another day...,14,0,1,2,5,0,1,779.0,586,274,Saxons
+291,Vikings have won the war of the century!,12,3,0,0,5,2,4,352.0,808,263,Vikings
+292,Saxons have fought for their lives and survive another day...,10,0,3,1,3,2,2,631.5,401,250,Saxons
+293,Vikings have won the war of the century!,17,2,0,2,4,4,3,553.5,991,407,Vikings
+294,Vikings have won the war of the century!,9,4,0,0,1,5,1,77.5,688,143,Vikings
+295,Vikings have won the war of the century!,11,3,0,0,3,3,3,268.5,737,206,Vikings
+296,Vikings have won the war of the century!,8,4,0,2,4,2,2,287.5,695,178,Vikings
+297,Vikings have won the war of the century!,11,4,0,0,5,3,2,30.0,742,250,Vikings
+298,Saxons have fought for their lives and survive another day...,13,0,4,0,5,3,3,514.0,372,276,Saxons
+299,Saxons have fought for their lives and survive another day...,11,0,1,0,5,5,2,542.0,674,247,Saxons
+300,Vikings have won the war of the century!,11,3,0,0,1,2,4,271.5,845,207,Vikings
+301,Vikings have won the war of the century!,10,4,0,0,3,2,1,208.0,713,150,Vikings
+302,Vikings have won the war of the century!,9,4,0,0,3,2,3,63.0,773,188,Vikings
+303,Vikings have won the war of the century!,12,2,0,1,2,3,1,444.0,777,257,Vikings
+304,Vikings have won the war of the century!,13,4,0,0,5,3,1,264.0,814,269,Vikings
+305,Vikings have won the war of the century!,12,3,0,1,3,1,3,335.0,785,278,Vikings
+306,Saxons have fought for their lives and survive another day...,10,0,3,2,3,1,1,641.5,411,240,Saxons
+307,Saxons have fought for their lives and survive another day...,9,0,3,1,5,4,2,571.5,422,209,Saxons
+308,Vikings have won the war of the century!,10,1,0,1,3,2,2,530.5,662,189,Vikings
+309,Saxons have fought for their lives and survive another day...,9,0,2,0,2,1,1,623.5,427,203,Saxons
+310,Vikings have won the war of the century!,12,2,0,0,3,1,3,337.0,768,252,Vikings
+311,Saxons have fought for their lives and survive another day...,12,0,2,0,8,2,1,508.0,466,200,Saxons
+312,Saxons have fought for their lives and survive another day...,8,0,2,0,1,2,1,630.0,430,138,Saxons
+313,Vikings have won the war of the century!,10,4,0,0,0,4,4,141.0,833,230,Vikings
+314,Vikings have won the war of the century!,13,2,0,0,5,1,2,403.0,810,281,Vikings
+315,Vikings have won the war of the century!,14,2,0,1,5,3,4,500.0,899,338,Vikings
+316,Saxons have fought for their lives and survive another day...,9,0,3,0,2,0,1,606.5,362,206,Saxons
+317,Saxons have fought for their lives and survive another day...,13,0,1,1,4,2,2,547.5,648,265,Saxons
+318,Saxons have fought for their lives and survive another day...,8,0,3,0,0,0,2,595.0,324,124,Saxons
+319,Vikings have won the war of the century!,12,1,0,1,1,3,3,511.0,914,347,Vikings
+320,Vikings have won the war of the century!,9,4,0,0,2,4,3,265.5,836,193,Vikings
+321,Vikings have won the war of the century!,17,2,0,0,7,5,2,378.0,902,386,Vikings
+322,Saxons have fought for their lives and survive another day...,11,0,1,0,4,1,1,474.0,573,260,Saxons
+323,Vikings have won the war of the century!,14,1,0,1,1,2,2,623.0,821,296,Vikings
+324,Saxons have fought for their lives and survive another day...,11,0,2,0,2,4,1,545.0,406,245,Saxons
+325,Saxons have fought for their lives and survive another day...,14,0,1,0,5,1,1,511.0,756,369,Saxons
+326,Vikings have won the war of the century!,9,4,0,0,2,5,3,227.5,749,189,Vikings
+327,Saxons have fought for their lives and survive another day...,14,0,1,2,3,5,1,651.0,724,338,Saxons
+328,Saxons have fought for their lives and survive another day...,9,0,2,0,1,3,3,483.5,470,187,Saxons
+329,Saxons have fought for their lives and survive another day...,10,0,4,0,2,2,1,505.0,218,203,Saxons
+330,Vikings have won the war of the century!,11,3,0,0,4,2,1,226.5,682,188,Vikings
+331,Saxons have fought for their lives and survive another day...,23,0,1,1,8,2,3,640.0,903,515,Saxons
+332,Vikings have won the war of the century!,12,1,0,1,5,1,2,481.5,857,260,Vikings
+333,Vikings have won the war of the century!,12,2,0,0,2,1,3,313.0,760,202,Vikings
+334,Saxons have fought for their lives and survive another day...,8,0,1,0,0,1,2,589.0,543,156,Saxons
+335,Saxons have fought for their lives and survive another day...,11,0,3,1,4,2,3,567.0,388,277,Saxons
+336,Saxons have fought for their lives and survive another day...,14,0,1,0,3,2,4,476.5,718,321,Saxons
+337,Vikings have won the war of the century!,10,1,0,1,2,2,3,548.0,718,190,Vikings
+338,Vikings have won the war of the century!,10,2,0,1,4,1,5,467.0,781,216,Vikings
+339,Vikings have won the war of the century!,16,3,0,0,2,3,5,363.0,846,307,Vikings
+340,Saxons have fought for their lives and survive another day...,16,0,1,0,11,2,3,467.5,750,365,Saxons
+341,Vikings have won the war of the century!,16,2,0,1,6,3,2,533.5,769,300,Vikings
+342,Vikings have won the war of the century!,12,4,0,0,1,1,2,70.5,750,279,Vikings
+343,Saxons have fought for their lives and survive another day...,13,0,1,1,4,4,4,653.0,802,382,Saxons
+344,Vikings have won the war of the century!,10,1,0,2,3,6,3,589.5,826,197,Vikings
+345,Vikings have won the war of the century!,9,3,0,0,5,4,2,207.5,760,216,Vikings
+346,Vikings have won the war of the century!,11,1,0,0,2,2,3,513.5,773,179,Vikings
+347,Saxons have fought for their lives and survive another day...,9,0,3,0,1,2,3,606.5,351,219,Saxons
+348,Saxons have fought for their lives and survive another day...,11,0,4,1,3,0,0,629.0,253,300,Saxons
+349,Saxons have fought for their lives and survive another day...,17,0,1,0,4,0,2,516.5,777,382,Saxons
+350,Vikings have won the war of the century!,7,3,0,0,2,2,2,208.5,677,128,Vikings
+351,Vikings have won the war of the century!,11,1,0,1,2,2,3,574.0,717,234,Vikings
+352,Vikings have won the war of the century!,10,4,0,0,4,1,4,65.0,879,263,Vikings
+353,Saxons have fought for their lives and survive another day...,10,0,1,1,1,2,2,699.0,566,192,Saxons
+354,Vikings have won the war of the century!,12,1,0,0,4,2,3,451.0,774,246,Vikings
+355,Saxons have fought for their lives and survive another day...,19,0,1,3,5,3,3,734.0,902,361,Saxons
+356,Saxons have fought for their lives and survive another day...,18,0,1,4,6,1,6,907.0,1005,444,Saxons
+357,Saxons have fought for their lives and survive another day...,21,0,1,4,5,3,8,802.0,969,485,Saxons
+358,Saxons have fought for their lives and survive another day...,8,0,1,0,3,1,1,505.0,524,199,Saxons
+359,Saxons have fought for their lives and survive another day...,16,0,3,2,5,1,2,746.0,573,371,Saxons
+360,Vikings have won the war of the century!,8,4,0,2,2,3,2,303.0,629,125,Vikings
+361,Vikings have won the war of the century!,11,2,0,0,3,4,1,279.0,724,262,Vikings
+362,Vikings have won the war of the century!,11,3,0,1,1,3,2,434.5,778,260,Vikings
+363,Vikings have won the war of the century!,8,4,0,0,0,5,3,270.0,868,183,Vikings
+364,Vikings have won the war of the century!,11,3,0,0,4,1,3,302.5,799,298,Vikings
+365,Vikings have won the war of the century!,10,4,0,0,0,4,2,199.0,707,198,Vikings
+366,Saxons have fought for their lives and survive another day...,12,0,3,3,3,3,3,838.5,392,286,Saxons
+367,Saxons have fought for their lives and survive another day...,10,0,4,0,1,1,3,487.0,339,295,Saxons
+368,Vikings have won the war of the century!,11,4,0,0,2,0,4,234.0,844,251,Vikings
+369,Vikings have won the war of the century!,12,4,0,0,6,0,2,98.5,728,235,Vikings
+370,Vikings have won the war of the century!,13,3,0,0,4,2,3,275.0,684,205,Vikings
+371,Saxons have fought for their lives and survive another day...,21,0,1,1,8,2,7,623.5,983,555,Saxons
+372,Saxons have fought for their lives and survive another day...,15,0,3,2,5,0,3,688.5,422,343,Saxons
+373,Saxons have fought for their lives and survive another day...,13,0,1,0,6,2,2,443.0,525,187,Saxons
+374,Vikings have won the war of the century!,10,3,0,0,2,3,4,269.5,746,116,Vikings
+375,Saxons have fought for their lives and survive another day...,9,0,2,0,3,2,2,509.5,499,195,Saxons
+376,Vikings have won the war of the century!,13,1,0,0,2,2,3,404.0,755,239,Vikings
+377,Vikings have won the war of the century!,9,2,0,0,4,2,3,384.0,709,126,Vikings
+378,Saxons have fought for their lives and survive another day...,13,0,3,3,6,3,1,812.0,312,246,Saxons
+379,Saxons have fought for their lives and survive another day...,9,0,1,1,0,2,3,629.0,718,222,Saxons
+380,Vikings have won the war of the century!,16,1,0,2,7,6,3,661.5,829,323,Vikings
+381,Saxons have fought for their lives and survive another day...,11,0,1,1,2,3,1,542.0,619,270,Saxons
+382,Vikings have won the war of the century!,8,4,0,0,2,1,1,85.0,701,136,Vikings
+383,Saxons have fought for their lives and survive another day...,17,0,1,0,6,1,4,516.0,879,395,Saxons
+384,Saxons have fought for their lives and survive another day...,12,0,2,0,7,1,4,499.0,571,297,Saxons
+385,Vikings have won the war of the century!,12,1,0,0,3,3,1,504.5,930,268,Vikings
+386,Saxons have fought for their lives and survive another day...,11,0,2,1,3,1,0,599.0,472,250,Saxons
+387,Vikings have won the war of the century!,11,2,0,1,3,3,2,407.5,753,243,Vikings
+388,Saxons have fought for their lives and survive another day...,17,0,1,1,5,1,7,652.0,688,335,Saxons
+389,Saxons have fought for their lives and survive another day...,10,0,1,1,4,2,1,592.0,601,210,Saxons
+390,Saxons have fought for their lives and survive another day...,17,0,1,1,3,1,4,662.5,777,415,Saxons
+391,Saxons have fought for their lives and survive another day...,12,0,1,3,3,0,3,775.5,602,247,Saxons
+392,Vikings have won the war of the century!,17,1,0,0,2,3,4,451.5,809,368,Vikings
+393,Vikings have won the war of the century!,9,4,0,1,4,3,1,285.5,745,189,Vikings
+394,Saxons have fought for their lives and survive another day...,12,0,1,0,5,6,2,536.0,624,170,Saxons
+395,Vikings have won the war of the century!,13,4,0,0,4,1,2,214.0,715,258,Vikings
+396,Saxons have fought for their lives and survive another day...,13,0,2,0,4,1,3,502.5,524,272,Saxons
+397,Saxons have fought for their lives and survive another day...,14,0,2,3,2,2,3,837.5,670,373,Saxons
+398,Vikings have won the war of the century!,9,2,0,0,1,5,1,293.0,846,160,Vikings
+399,Vikings have won the war of the century!,10,1,0,1,3,2,2,549.5,794,180,Vikings
+400,Vikings have won the war of the century!,11,1,0,3,1,2,3,693.0,828,186,Vikings
+401,Vikings have won the war of the century!,10,4,0,0,4,3,3,227.0,818,230,Vikings
+402,Saxons have fought for their lives and survive another day...,14,0,4,0,4,0,2,563.0,320,306,Saxons
+403,Saxons have fought for their lives and survive another day...,9,0,3,0,1,0,1,542.0,419,209,Saxons
+404,Vikings have won the war of the century!,12,4,0,0,3,1,4,190.0,891,283,Vikings
+405,Vikings have won the war of the century!,9,3,0,0,3,2,2,381.0,659,197,Vikings
+406,Vikings have won the war of the century!,11,1,0,1,5,2,1,482.0,811,242,Vikings
+407,Vikings have won the war of the century!,11,3,0,0,2,3,1,256.0,658,197,Vikings
+408,Saxons have fought for their lives and survive another day...,17,0,1,1,10,0,4,530.0,808,395,Saxons
+409,Vikings have won the war of the century!,11,2,0,0,3,2,2,382.5,882,276,Vikings
+410,Vikings have won the war of the century!,11,1,0,0,3,3,2,463.5,688,153,Vikings
+411,Saxons have fought for their lives and survive another day...,12,0,1,1,5,4,5,619.5,738,345,Saxons
+412,Saxons have fought for their lives and survive another day...,14,0,4,2,2,1,1,697.0,294,381,Saxons
+413,Vikings have won the war of the century!,10,4,0,0,5,3,0,186.5,740,200,Vikings
+414,Saxons have fought for their lives and survive another day...,9,0,2,0,3,3,2,507.0,513,222,Saxons
+415,Vikings have won the war of the century!,14,2,0,0,5,1,3,369.5,863,252,Vikings
+416,Vikings have won the war of the century!,9,3,0,1,2,2,2,311.0,829,213,Vikings
+417,Saxons have fought for their lives and survive another day...,9,0,2,0,2,2,3,548.0,552,202,Saxons
+418,Saxons have fought for their lives and survive another day...,9,0,4,0,3,1,1,661.0,304,176,Saxons
+419,Saxons have fought for their lives and survive another day...,14,0,2,0,2,2,2,575.0,567,316,Saxons
+420,Vikings have won the war of the century!,18,1,0,1,6,3,0,399.5,839,374,Vikings
+421,Vikings have won the war of the century!,9,3,0,0,4,2,1,216.5,654,158,Vikings
+422,Saxons have fought for their lives and survive another day...,14,0,1,2,3,4,5,715.5,922,338,Saxons
+423,Saxons have fought for their lives and survive another day...,8,0,1,0,1,4,0,557.0,540,137,Saxons
+424,Vikings have won the war of the century!,13,2,0,0,1,4,4,361.0,712,204,Vikings
+425,Vikings have won the war of the century!,8,2,0,0,4,0,3,257.0,662,148,Vikings
+426,Vikings have won the war of the century!,14,1,0,0,8,5,2,472.5,879,296,Vikings
+427,Vikings have won the war of the century!,10,3,0,2,3,2,4,463.0,755,220,Vikings
+428,Vikings have won the war of the century!,12,2,0,0,5,3,2,506.5,866,276,Vikings
+429,Vikings have won the war of the century!,13,2,0,2,4,2,2,571.0,728,192,Vikings
+430,Vikings have won the war of the century!,11,4,0,0,5,1,5,283.0,780,218,Vikings
+431,Vikings have won the war of the century!,13,3,0,2,7,3,2,496.0,957,329,Vikings
+432,Saxons have fought for their lives and survive another day...,13,0,1,1,5,4,5,644.5,641,290,Saxons
+433,Vikings have won the war of the century!,11,2,0,0,2,0,3,310.0,695,206,Vikings
+434,Vikings have won the war of the century!,9,2,0,1,3,0,0,412.5,629,153,Vikings
+435,Saxons have fought for their lives and survive another day...,11,0,1,0,3,4,3,508.5,674,242,Saxons
+436,Vikings have won the war of the century!,9,3,0,0,4,0,3,234.0,719,193,Vikings
+437,Vikings have won the war of the century!,9,4,0,1,3,3,0,301.5,707,183,Vikings
+438,Saxons have fought for their lives and survive another day...,11,0,1,0,3,1,2,505.5,606,214,Saxons
+439,Saxons have fought for their lives and survive another day...,13,0,4,0,4,1,4,501.5,494,282,Saxons
+440,Saxons have fought for their lives and survive another day...,11,0,1,1,5,3,4,548.0,706,282,Saxons
+441,Saxons have fought for their lives and survive another day...,14,0,1,1,3,1,3,550.0,720,290,Saxons
+442,Vikings have won the war of the century!,10,4,0,0,2,2,3,212.0,811,193,Vikings
+443,Vikings have won the war of the century!,9,1,0,1,1,3,2,607.5,754,187,Vikings
+444,Vikings have won the war of the century!,10,3,0,1,3,1,3,332.5,706,205,Vikings
+445,Saxons have fought for their lives and survive another day...,12,0,1,1,3,0,2,614.0,681,279,Saxons
+446,Saxons have fought for their lives and survive another day...,12,0,3,2,4,2,2,783.5,512,298,Saxons
+447,Vikings have won the war of the century!,13,3,0,0,4,2,1,292.5,822,294,Vikings
+448,Vikings have won the war of the century!,13,2,0,0,2,4,3,370.0,757,245,Vikings
+449,Saxons have fought for their lives and survive another day...,14,0,2,1,6,2,5,551.0,712,299,Saxons
+450,Vikings have won the war of the century!,11,2,0,2,4,3,2,489.0,745,193,Vikings
+451,Vikings have won the war of the century!,11,4,0,1,3,1,3,173.5,686,170,Vikings
+452,Vikings have won the war of the century!,8,4,0,0,1,2,1,30.0,661,167,Vikings
+453,Vikings have won the war of the century!,8,3,0,0,4,1,2,247.5,796,135,Vikings
+454,Vikings have won the war of the century!,7,4,0,0,2,2,2,192.5,603,160,Vikings
+455,Vikings have won the war of the century!,12,4,0,0,3,4,1,273.0,830,271,Vikings
+456,Saxons have fought for their lives and survive another day...,14,0,3,1,4,0,2,592.5,224,320,Saxons
+457,Saxons have fought for their lives and survive another day...,10,0,2,0,2,0,1,599.0,345,182,Saxons
+458,Saxons have fought for their lives and survive another day...,12,0,1,1,4,3,3,657.5,662,208,Saxons
+459,Vikings have won the war of the century!,10,3,0,0,3,2,3,280.5,704,144,Vikings
+460,Vikings have won the war of the century!,11,3,0,0,2,3,3,211.5,813,213,Vikings
+461,Saxons have fought for their lives and survive another day...,13,0,1,2,4,1,3,756.0,677,275,Saxons
+462,Vikings have won the war of the century!,15,2,0,1,1,5,4,359.0,770,266,Vikings
+463,Vikings have won the war of the century!,9,4,0,1,3,5,1,364.5,734,171,Vikings
+464,Saxons have fought for their lives and survive another day...,12,0,1,1,2,4,4,548.0,741,279,Saxons
+465,Vikings have won the war of the century!,13,4,0,0,5,1,1,239.5,798,232,Vikings
+466,Saxons have fought for their lives and survive another day...,12,0,4,0,5,2,5,435.5,531,289,Saxons
+467,Vikings have won the war of the century!,9,2,0,0,3,3,1,437.0,719,138,Vikings
+468,Vikings have won the war of the century!,15,3,0,0,1,3,5,272.5,924,341,Vikings
+469,Saxons have fought for their lives and survive another day...,9,0,3,0,2,0,4,463.0,528,238,Saxons
+470,Saxons have fought for their lives and survive another day...,9,0,1,1,0,3,3,566.0,672,191,Saxons
+471,Vikings have won the war of the century!,13,1,0,1,8,4,3,517.5,856,318,Vikings
+472,Saxons have fought for their lives and survive another day...,14,0,2,0,5,2,6,480.0,718,316,Saxons
+473,Vikings have won the war of the century!,14,1,0,0,3,2,3,399.0,804,304,Vikings
+474,Saxons have fought for their lives and survive another day...,9,0,3,0,3,2,4,622.5,328,221,Saxons
+475,Vikings have won the war of the century!,13,1,0,3,5,2,2,708.5,707,193,Vikings
+476,Vikings have won the war of the century!,8,1,0,0,0,2,2,544.0,776,186,Vikings
+477,Vikings have won the war of the century!,10,3,0,0,3,1,4,292.0,690,197,Vikings
+478,Saxons have fought for their lives and survive another day...,8,0,1,0,1,2,2,568.5,606,195,Saxons
+479,Vikings have won the war of the century!,13,3,0,0,1,6,1,259.5,849,254,Vikings
+480,Vikings have won the war of the century!,12,3,0,0,4,1,1,218.5,703,236,Vikings
+481,Vikings have won the war of the century!,9,4,0,0,2,2,4,108.5,711,181,Vikings
+482,Vikings have won the war of the century!,18,2,0,1,4,4,4,460.0,866,354,Vikings
+483,Vikings have won the war of the century!,11,1,0,0,3,3,3,448.5,844,195,Vikings
+484,Vikings have won the war of the century!,19,1,0,1,5,3,3,470.5,875,408,Vikings
+485,Vikings have won the war of the century!,11,2,0,0,3,1,1,406.5,738,230,Vikings
+486,Saxons have fought for their lives and survive another day...,11,0,2,1,4,3,1,683.5,411,278,Saxons
+487,Vikings have won the war of the century!,10,1,0,1,3,3,4,660.5,825,234,Vikings
+488,Vikings have won the war of the century!,12,3,0,1,4,4,3,390.5,847,256,Vikings
+489,Saxons have fought for their lives and survive another day...,18,0,1,2,5,2,5,737.5,712,316,Saxons
+490,Vikings have won the war of the century!,9,1,0,0,4,3,4,442.0,895,243,Vikings
+491,Saxons have fought for their lives and survive another day...,9,0,4,0,4,0,2,457.5,333,190,Saxons
+492,Saxons have fought for their lives and survive another day...,11,0,2,0,4,0,4,433.0,664,264,Saxons
+493,Vikings have won the war of the century!,14,4,0,0,3,4,3,256.0,945,254,Vikings
+494,Saxons have fought for their lives and survive another day...,8,0,1,0,1,1,3,623.0,571,194,Saxons
+495,Vikings have won the war of the century!,9,1,0,0,1,4,4,418.5,784,167,Vikings
+496,Vikings have won the war of the century!,12,3,0,0,2,1,2,294.5,770,214,Vikings
+497,Saxons have fought for their lives and survive another day...,8,0,2,1,2,1,1,519.5,324,174,Saxons
+498,Saxons have fought for their lives and survive another day...,14,0,1,2,4,6,2,574.5,698,308,Saxons
+499,Saxons have fought for their lives and survive another day...,13,0,2,1,4,3,2,695.0,591,301,Saxons
+500,Saxons have fought for their lives and survive another day...,7,0,3,0,1,3,2,635.5,312,182,Saxons
+501,Saxons have fought for their lives and survive another day...,12,0,2,2,3,3,2,596.5,589,253,Saxons
+502,Vikings have won the war of the century!,11,1,0,0,1,7,2,401.0,731,225,Vikings
+503,Saxons have fought for their lives and survive another day...,12,0,1,1,4,3,3,574.0,708,281,Saxons
+504,Vikings have won the war of the century!,10,2,0,2,3,2,3,597.5,738,215,Vikings
+505,Vikings have won the war of the century!,10,1,0,0,3,4,0,358.5,796,251,Vikings
+506,Vikings have won the war of the century!,12,1,0,2,3,2,1,557.5,700,197,Vikings
+507,Vikings have won the war of the century!,15,2,0,1,5,3,2,397.5,814,303,Vikings
+508,Saxons have fought for their lives and survive another day...,17,0,2,0,3,3,3,481.5,538,368,Saxons
+509,Vikings have won the war of the century!,8,3,0,0,2,1,2,206.0,662,125,Vikings
+510,Vikings have won the war of the century!,11,3,0,0,3,5,3,297.5,735,236,Vikings
+511,Saxons have fought for their lives and survive another day...,9,0,2,0,2,2,1,534.5,552,219,Saxons
+512,Vikings have won the war of the century!,11,2,0,0,4,1,1,308.0,761,239,Vikings
+513,Saxons have fought for their lives and survive another day...,17,0,2,0,9,4,4,485.0,591,340,Saxons
+514,Saxons have fought for their lives and survive another day...,9,0,2,0,3,1,4,539.5,473,193,Saxons
+515,Saxons have fought for their lives and survive another day...,13,0,4,0,5,2,5,516.0,495,258,Saxons
+516,Vikings have won the war of the century!,10,3,0,3,5,3,1,467.5,778,239,Vikings
+517,Vikings have won the war of the century!,11,4,0,1,5,4,2,209.5,811,237,Vikings
+518,Saxons have fought for their lives and survive another day...,11,0,2,1,3,3,3,614.5,605,217,Saxons
+519,Vikings have won the war of the century!,14,1,0,1,3,0,4,528.0,779,267,Vikings
+520,Saxons have fought for their lives and survive another day...,19,0,1,0,8,4,4,438.0,736,445,Saxons
+521,Saxons have fought for their lives and survive another day...,8,0,4,0,2,1,3,586.0,345,159,Saxons
+522,Vikings have won the war of the century!,7,4,0,0,1,4,3,143.5,633,70,Vikings
+523,Saxons have fought for their lives and survive another day...,8,0,3,0,1,1,0,589.5,196,192,Saxons
+524,Vikings have won the war of the century!,13,4,0,0,7,2,5,294.0,852,313,Vikings
+525,Saxons have fought for their lives and survive another day...,14,0,2,1,2,3,3,587.0,602,272,Saxons
+526,Vikings have won the war of the century!,16,4,0,1,5,4,2,376.0,970,377,Vikings
+527,Saxons have fought for their lives and survive another day...,12,0,4,0,2,2,0,610.5,271,182,Saxons
+528,Saxons have fought for their lives and survive another day...,12,0,3,2,4,1,0,721.0,234,287,Saxons
+529,Vikings have won the war of the century!,12,3,0,3,3,1,3,504.5,839,272,Vikings
+530,Vikings have won the war of the century!,11,3,0,0,4,3,2,348.0,787,241,Vikings
+531,Saxons have fought for their lives and survive another day...,11,0,4,0,4,1,4,491.5,440,249,Saxons
+532,Saxons have fought for their lives and survive another day...,13,0,1,1,3,1,3,748.0,769,332,Saxons
+533,Saxons have fought for their lives and survive another day...,12,0,1,1,3,4,4,560.5,734,261,Saxons
+534,Vikings have won the war of the century!,12,1,0,2,2,1,1,637.0,698,184,Vikings
+535,Vikings have won the war of the century!,9,4,0,0,6,2,1,235.5,641,199,Vikings
+536,Vikings have won the war of the century!,8,3,0,1,1,1,1,372.0,629,125,Vikings
+537,Saxons have fought for their lives and survive another day...,12,0,3,0,5,2,1,539.5,452,256,Saxons
+538,Vikings have won the war of the century!,12,2,0,0,1,3,3,275.5,831,313,Vikings
+539,Vikings have won the war of the century!,15,3,0,1,7,2,3,442.5,898,370,Vikings
+540,Vikings have won the war of the century!,9,1,0,0,2,2,2,381.5,685,183,Vikings
+541,Saxons have fought for their lives and survive another day...,10,0,1,0,3,2,2,579.0,569,243,Saxons
+542,Vikings have won the war of the century!,10,3,0,0,5,2,1,290.0,754,209,Vikings
+543,Vikings have won the war of the century!,9,3,0,1,3,0,2,344.0,738,192,Vikings
+544,Vikings have won the war of the century!,9,3,0,0,2,1,3,177.0,781,177,Vikings
+545,Vikings have won the war of the century!,8,2,0,0,1,2,2,394.0,734,124,Vikings
+546,Saxons have fought for their lives and survive another day...,11,0,3,0,2,4,4,588.5,425,336,Saxons
+547,Vikings have won the war of the century!,12,1,0,0,3,3,1,436.0,784,250,Vikings
+548,Saxons have fought for their lives and survive another day...,17,0,2,1,4,5,5,664.0,590,252,Saxons
+549,Vikings have won the war of the century!,11,2,0,0,3,3,4,333.0,840,227,Vikings
+550,Vikings have won the war of the century!,11,3,0,3,3,5,1,466.5,846,230,Vikings
+551,Saxons have fought for their lives and survive another day...,9,0,4,0,3,1,0,566.0,136,211,Saxons
+552,Vikings have won the war of the century!,17,2,0,2,5,3,6,550.0,815,314,Vikings
+553,Vikings have won the war of the century!,7,3,0,0,3,3,2,264.5,720,125,Vikings
+554,Saxons have fought for their lives and survive another day...,10,0,1,1,3,2,3,638.0,615,187,Saxons
+555,Vikings have won the war of the century!,9,2,0,0,2,4,3,390.0,747,176,Vikings
+556,Saxons have fought for their lives and survive another day...,9,0,4,0,2,0,2,629.0,187,246,Saxons
+557,Vikings have won the war of the century!,9,4,0,0,4,3,1,292.0,790,203,Vikings
+558,Saxons have fought for their lives and survive another day...,8,0,3,0,1,1,4,531.5,412,187,Saxons
+559,Saxons have fought for their lives and survive another day...,8,0,2,0,1,0,2,609.5,457,217,Saxons
+560,Vikings have won the war of the century!,14,1,0,1,2,1,1,574.0,836,290,Vikings
+561,Saxons have fought for their lives and survive another day...,11,0,1,0,2,4,2,483.5,672,323,Saxons
+562,Vikings have won the war of the century!,14,1,0,0,5,0,1,409.5,878,394,Vikings
+563,Vikings have won the war of the century!,24,1,0,1,13,3,9,477.5,928,452,Vikings
+564,Saxons have fought for their lives and survive another day...,13,0,3,1,6,2,1,613.5,552,261,Saxons
+565,Vikings have won the war of the century!,13,2,0,0,2,4,3,394.0,772,202,Vikings
+566,Vikings have won the war of the century!,9,4,0,0,4,2,2,194.0,636,161,Vikings
+567,Saxons have fought for their lives and survive another day...,9,0,3,0,3,0,2,543.0,351,187,Saxons
+568,Saxons have fought for their lives and survive another day...,11,0,2,0,1,1,3,439.5,597,271,Saxons
+569,Vikings have won the war of the century!,8,2,0,0,2,1,2,420.5,669,140,Vikings
+570,Vikings have won the war of the century!,8,2,0,0,1,1,2,365.5,641,170,Vikings
+571,Saxons have fought for their lives and survive another day...,11,0,1,0,8,2,2,489.0,702,218,Saxons
+572,Saxons have fought for their lives and survive another day...,11,0,3,1,2,1,2,649.5,330,249,Saxons
+573,Saxons have fought for their lives and survive another day...,9,0,4,0,4,1,0,485.0,209,192,Saxons
+574,Vikings have won the war of the century!,9,2,0,2,1,1,2,509.5,707,154,Vikings
+575,Vikings have won the war of the century!,12,3,0,1,3,3,2,500.5,747,221,Vikings
+576,Vikings have won the war of the century!,10,3,0,0,3,4,1,261.0,760,218,Vikings
+577,Saxons have fought for their lives and survive another day...,13,0,4,1,5,0,0,599.5,274,264,Saxons
+578,Saxons have fought for their lives and survive another day...,14,0,4,4,2,2,1,964.0,207,338,Saxons
+579,Vikings have won the war of the century!,11,2,0,0,5,1,3,282.5,768,212,Vikings
+580,Saxons have fought for their lives and survive another day...,9,0,2,0,2,2,1,628.0,448,243,Saxons
+581,Vikings have won the war of the century!,12,1,0,1,3,4,3,616.5,768,244,Vikings
+582,Saxons have fought for their lives and survive another day...,10,0,1,1,2,2,2,624.0,712,220,Saxons
+583,Vikings have won the war of the century!,13,1,0,0,3,3,2,527.0,895,284,Vikings
+584,Vikings have won the war of the century!,8,1,0,0,1,2,1,360.0,676,182,Vikings
+585,Vikings have won the war of the century!,10,4,0,1,3,4,0,237.0,700,175,Vikings
+586,Saxons have fought for their lives and survive another day...,12,0,2,0,6,0,2,470.5,517,248,Saxons
+587,Saxons have fought for their lives and survive another day...,10,0,1,0,3,1,1,635.5,621,197,Saxons
+588,Vikings have won the war of the century!,11,2,0,0,4,3,1,305.0,756,239,Vikings
+589,Saxons have fought for their lives and survive another day...,12,0,3,1,4,2,3,635.5,540,234,Saxons
+590,Saxons have fought for their lives and survive another day...,13,0,1,0,6,3,1,499.5,696,320,Saxons
+591,Vikings have won the war of the century!,8,1,0,0,0,4,1,412.0,678,127,Vikings
+592,Vikings have won the war of the century!,9,2,0,0,2,1,1,422.5,715,129,Vikings
+593,Vikings have won the war of the century!,14,2,0,3,6,3,2,730.0,789,274,Vikings
+594,Saxons have fought for their lives and survive another day...,9,0,1,0,2,0,4,439.0,684,188,Saxons
+595,Vikings have won the war of the century!,11,2,0,2,4,1,4,535.5,781,257,Vikings
+596,Saxons have fought for their lives and survive another day...,21,0,4,1,8,2,3,493.5,383,483,Saxons
+597,Saxons have fought for their lives and survive another day...,8,0,3,0,1,0,2,572.5,245,166,Saxons
+598,Saxons have fought for their lives and survive another day...,16,0,2,1,2,2,5,748.0,771,390,Saxons
+599,Vikings have won the war of the century!,9,1,0,0,2,3,2,458.0,615,169,Vikings
+600,Saxons have fought for their lives and survive another day...,10,0,2,0,2,2,3,579.0,620,213,Saxons
+601,Vikings have won the war of the century!,11,1,0,0,3,3,3,492.5,700,184,Vikings
+602,Vikings have won the war of the century!,19,1,0,2,3,3,1,592.0,841,404,Vikings
+603,Vikings have won the war of the century!,8,4,0,2,1,2,2,342.0,636,124,Vikings
+604,Saxons have fought for their lives and survive another day...,13,0,1,0,2,1,3,515.0,512,302,Saxons
+605,Saxons have fought for their lives and survive another day...,21,0,2,0,3,3,3,453.0,750,487,Saxons
+606,Saxons have fought for their lives and survive another day...,12,0,1,1,4,0,4,569.5,678,324,Saxons
+607,Vikings have won the war of the century!,7,3,0,1,1,2,2,351.0,702,162,Vikings
+608,Saxons have fought for their lives and survive another day...,10,0,1,0,3,1,3,472.5,532,142,Saxons
+609,Vikings have won the war of the century!,13,3,0,0,2,0,5,256.5,899,353,Vikings
+610,Vikings have won the war of the century!,10,3,0,1,2,3,3,326.5,725,210,Vikings
+611,Saxons have fought for their lives and survive another day...,14,0,1,1,2,3,2,541.0,747,368,Saxons
+612,Vikings have won the war of the century!,10,1,0,1,1,1,4,536.0,743,208,Vikings
+613,Saxons have fought for their lives and survive another day...,12,0,2,0,5,1,3,461.5,578,255,Saxons
+614,Saxons have fought for their lives and survive another day...,13,0,2,0,2,3,5,538.0,649,361,Saxons
+615,Vikings have won the war of the century!,14,2,0,1,2,0,4,444.5,840,315,Vikings
+616,Vikings have won the war of the century!,11,2,0,0,2,3,4,347.5,671,188,Vikings
+617,Saxons have fought for their lives and survive another day...,7,0,1,1,0,3,2,570.0,554,121,Saxons
+618,Vikings have won the war of the century!,11,2,0,0,1,3,3,466.0,756,263,Vikings
+619,Vikings have won the war of the century!,14,2,0,0,5,2,3,455.0,784,246,Vikings
+620,Saxons have fought for their lives and survive another day...,11,0,2,1,3,0,1,508.0,500,202,Saxons
+621,Saxons have fought for their lives and survive another day...,8,0,3,0,1,0,0,595.5,288,167,Saxons
+622,Saxons have fought for their lives and survive another day...,11,0,2,0,2,2,0,531.0,567,278,Saxons
+623,Saxons have fought for their lives and survive another day...,7,0,1,1,1,3,4,535.0,720,135,Saxons
+624,Saxons have fought for their lives and survive another day...,7,0,2,0,1,3,0,549.5,452,171,Saxons
+625,Vikings have won the war of the century!,14,1,0,3,3,3,4,737.0,840,224,Vikings
+626,Saxons have fought for their lives and survive another day...,15,0,2,0,7,2,3,471.0,702,393,Saxons
+627,Vikings have won the war of the century!,11,1,0,0,2,4,6,503.5,862,236,Vikings
+628,Vikings have won the war of the century!,10,3,0,1,4,3,3,366.0,738,272,Vikings
+629,Vikings have won the war of the century!,9,1,0,0,0,3,5,415.0,798,192,Vikings
+630,Saxons have fought for their lives and survive another day...,17,0,1,1,6,1,2,659.0,721,364,Saxons
+631,Saxons have fought for their lives and survive another day...,8,0,2,0,0,3,2,502.0,471,208,Saxons
+632,Vikings have won the war of the century!,8,4,0,0,2,5,1,268.5,631,138,Vikings
+633,Saxons have fought for their lives and survive another day...,10,0,2,1,4,3,1,734.5,453,203,Saxons
+634,Vikings have won the war of the century!,8,1,0,0,1,3,3,462.0,612,108,Vikings
+635,Saxons have fought for their lives and survive another day...,8,0,1,0,2,2,2,488.0,646,228,Saxons
+636,Saxons have fought for their lives and survive another day...,11,0,2,0,2,2,0,585.0,513,253,Saxons
+637,Saxons have fought for their lives and survive another day...,10,0,1,1,1,4,3,726.5,728,282,Saxons
+638,Vikings have won the war of the century!,11,4,0,0,5,2,2,105.5,765,198,Vikings
+639,Saxons have fought for their lives and survive another day...,17,0,1,3,6,3,4,800.5,712,475,Saxons
+640,Vikings have won the war of the century!,10,1,0,3,5,1,4,588.5,911,279,Vikings
+641,Vikings have won the war of the century!,9,2,0,1,3,1,2,381.5,686,185,Vikings
+642,Saxons have fought for their lives and survive another day...,15,0,1,0,7,1,2,432.5,788,305,Saxons
+643,Vikings have won the war of the century!,11,1,0,1,4,4,4,498.0,878,277,Vikings
+644,Saxons have fought for their lives and survive another day...,12,0,1,1,2,3,4,691.0,707,250,Saxons
+645,Vikings have won the war of the century!,9,2,0,1,2,2,3,464.0,734,187,Vikings
+646,Vikings have won the war of the century!,12,2,0,2,5,3,1,605.5,785,282,Vikings
+647,Saxons have fought for their lives and survive another day...,13,0,2,1,5,3,0,585.0,472,284,Saxons
+648,Vikings have won the war of the century!,11,3,0,0,3,4,3,259.5,714,132,Vikings
+649,Vikings have won the war of the century!,12,2,0,1,6,5,1,525.5,875,256,Vikings
+650,Vikings have won the war of the century!,10,2,0,1,2,3,1,465.5,769,231,Vikings
+651,Vikings have won the war of the century!,13,3,0,0,2,2,0,231.0,709,203,Vikings
+652,Vikings have won the war of the century!,15,1,0,1,3,5,2,581.0,829,310,Vikings
+653,Vikings have won the war of the century!,13,4,0,0,4,2,1,143.0,797,313,Vikings
+654,Vikings have won the war of the century!,11,3,0,1,2,1,4,340.0,769,211,Vikings
+655,Vikings have won the war of the century!,13,1,0,1,2,4,2,611.0,901,274,Vikings
+656,Saxons have fought for their lives and survive another day...,16,0,1,3,6,0,5,765.5,614,379,Saxons
+657,Vikings have won the war of the century!,8,2,0,0,3,3,0,264.0,682,128,Vikings
+658,Vikings have won the war of the century!,11,4,0,0,6,4,3,233.5,692,278,Vikings
+659,Saxons have fought for their lives and survive another day...,9,0,1,0,2,0,1,596.0,476,169,Saxons
+660,Saxons have fought for their lives and survive another day...,9,0,3,1,2,1,1,589.5,217,180,Saxons
+661,Saxons have fought for their lives and survive another day...,9,0,1,0,4,2,3,535.0,624,210,Saxons
+662,Vikings have won the war of the century!,15,2,0,1,8,1,1,411.5,769,303,Vikings
+663,Vikings have won the war of the century!,12,2,0,0,4,3,2,285.5,676,206,Vikings
+664,Vikings have won the war of the century!,9,3,0,0,3,3,4,197.0,843,198,Vikings
+665,Saxons have fought for their lives and survive another day...,11,0,2,3,1,0,3,838.5,400,177,Saxons
+666,Saxons have fought for their lives and survive another day...,10,0,4,0,5,0,0,519.0,4,250,Saxons
+667,Vikings have won the war of the century!,9,4,0,0,3,1,4,185.0,799,211,Vikings
+668,Vikings have won the war of the century!,18,3,0,2,6,2,5,435.5,887,368,Vikings
+669,Vikings have won the war of the century!,13,1,0,0,2,4,1,443.5,803,265,Vikings
+670,Vikings have won the war of the century!,8,3,0,0,3,2,2,121.0,692,124,Vikings
+671,Saxons have fought for their lives and survive another day...,12,0,4,1,3,2,1,613.5,297,290,Saxons
+672,Vikings have won the war of the century!,12,1,0,1,2,3,1,668.5,669,214,Vikings
+673,Saxons have fought for their lives and survive another day...,9,0,3,0,3,4,3,609.0,527,202,Saxons
+674,Vikings have won the war of the century!,16,4,0,1,3,5,1,241.0,924,368,Vikings
+675,Saxons have fought for their lives and survive another day...,14,0,2,2,3,0,2,749.0,619,282,Saxons
+676,Saxons have fought for their lives and survive another day...,13,0,2,1,3,2,1,586.0,579,339,Saxons
+677,Saxons have fought for their lives and survive another day...,10,0,2,0,5,4,3,531.5,518,186,Saxons
+678,Vikings have won the war of the century!,13,4,0,0,5,2,2,213.5,832,274,Vikings
+679,Vikings have won the war of the century!,13,3,0,0,4,1,3,373.0,842,279,Vikings
+680,Saxons have fought for their lives and survive another day...,25,0,1,4,8,2,5,1042.0,1086,545,Saxons
+681,Vikings have won the war of the century!,13,4,0,0,7,2,6,122.0,869,196,Vikings
+682,Vikings have won the war of the century!,15,2,0,0,6,4,2,370.0,881,303,Vikings
+683,Saxons have fought for their lives and survive another day...,10,0,1,0,2,2,1,572.0,538,169,Saxons
+684,Vikings have won the war of the century!,10,4,0,0,4,2,5,119.5,774,193,Vikings
+685,Saxons have fought for their lives and survive another day...,11,0,2,2,2,3,0,900.0,440,257,Saxons
+686,Saxons have fought for their lives and survive another day...,11,0,2,1,3,3,2,522.5,556,217,Saxons
+687,Saxons have fought for their lives and survive another day...,13,0,3,1,5,2,5,591.0,453,290,Saxons
+688,Saxons have fought for their lives and survive another day...,16,0,2,0,4,2,2,531.0,631,370,Saxons
+689,Saxons have fought for their lives and survive another day...,10,0,2,2,0,2,2,579.0,540,203,Saxons
+690,Saxons have fought for their lives and survive another day...,13,0,1,2,2,3,4,646.5,716,283,Saxons
+691,Saxons have fought for their lives and survive another day...,10,0,2,0,3,2,1,608.5,495,221,Saxons
+692,Saxons have fought for their lives and survive another day...,12,0,1,0,3,0,2,583.0,597,290,Saxons
+693,Vikings have won the war of the century!,9,1,0,1,1,2,3,534.5,734,173,Vikings
+694,Vikings have won the war of the century!,11,3,0,1,2,3,3,325.0,804,251,Vikings
+695,Saxons have fought for their lives and survive another day...,24,0,1,2,6,2,5,641.5,960,549,Saxons
+696,Saxons have fought for their lives and survive another day...,13,0,1,1,3,4,3,568.5,746,286,Saxons
+697,Vikings have won the war of the century!,8,4,0,2,3,1,1,336.0,656,140,Vikings
+698,Vikings have won the war of the century!,11,4,0,0,4,2,1,154.5,692,178,Vikings
+699,Vikings have won the war of the century!,12,1,0,3,3,1,2,657.0,764,298,Vikings
+700,Vikings have won the war of the century!,18,4,0,0,4,1,2,230.0,892,376,Vikings
+701,Vikings have won the war of the century!,15,1,0,0,5,4,3,499.0,841,276,Vikings
+702,Saxons have fought for their lives and survive another day...,9,0,2,0,2,2,3,435.5,513,172,Saxons
+703,Saxons have fought for their lives and survive another day...,10,0,4,2,0,1,2,638.0,339,241,Saxons
+704,Vikings have won the war of the century!,10,3,0,1,3,3,3,280.0,829,251,Vikings
+705,Vikings have won the war of the century!,13,2,0,1,4,4,1,427.5,696,238,Vikings
+706,Vikings have won the war of the century!,10,1,0,0,1,2,1,465.0,684,186,Vikings
+707,Saxons have fought for their lives and survive another day...,11,0,2,1,6,2,2,579.5,590,249,Saxons
+708,Vikings have won the war of the century!,12,3,0,1,5,2,0,323.0,821,314,Vikings
+709,Vikings have won the war of the century!,10,1,0,2,1,4,1,638.5,770,198,Vikings
+710,Vikings have won the war of the century!,10,1,0,0,0,4,2,435.0,893,206,Vikings
+711,Vikings have won the war of the century!,8,3,0,1,2,0,3,333.5,619,102,Vikings
+712,Vikings have won the war of the century!,9,3,0,0,5,2,4,305.5,826,171,Vikings
+713,Vikings have won the war of the century!,11,1,0,0,3,2,3,489.5,739,230,Vikings
+714,Vikings have won the war of the century!,12,4,0,0,1,5,4,230.0,796,274,Vikings
+715,Vikings have won the war of the century!,13,1,0,3,4,2,2,808.0,727,247,Vikings
+716,Vikings have won the war of the century!,13,2,0,1,4,4,3,515.5,771,235,Vikings
+717,Vikings have won the war of the century!,15,2,0,2,4,2,3,544.0,900,281,Vikings
+718,Saxons have fought for their lives and survive another day...,9,0,1,0,2,1,2,492.0,586,229,Saxons
+719,Vikings have won the war of the century!,10,2,0,0,1,3,1,320.0,784,233,Vikings
+720,Vikings have won the war of the century!,8,2,0,0,3,2,3,339.0,722,132,Vikings
+721,Vikings have won the war of the century!,7,3,0,0,1,0,1,268.0,646,143,Vikings
+722,Saxons have fought for their lives and survive another day...,11,0,3,0,2,3,2,464.0,506,279,Saxons
+723,Vikings have won the war of the century!,9,2,0,1,2,3,0,385.0,659,175,Vikings
+724,Vikings have won the war of the century!,12,3,0,0,3,4,4,264.5,889,237,Vikings
+725,Saxons have fought for their lives and survive another day...,11,0,1,1,4,1,6,623.0,725,258,Saxons
+726,Vikings have won the war of the century!,9,3,0,0,6,2,2,245.0,659,137,Vikings
+727,Vikings have won the war of the century!,8,1,0,0,1,1,0,577.0,602,145,Vikings
+728,Vikings have won the war of the century!,13,2,0,0,4,2,2,290.5,768,259,Vikings
+729,Vikings have won the war of the century!,9,2,0,0,4,0,2,333.0,760,240,Vikings
+730,Vikings have won the war of the century!,13,1,0,0,4,4,1,488.0,828,284,Vikings
+731,Vikings have won the war of the century!,14,4,0,0,2,1,3,187.5,904,311,Vikings
+732,Vikings have won the war of the century!,14,3,0,1,1,4,2,290.5,830,264,Vikings
+733,Saxons have fought for their lives and survive another day...,9,0,4,0,3,3,1,516.0,341,233,Saxons
+734,Saxons have fought for their lives and survive another day...,10,0,4,0,2,0,4,583.5,141,209,Saxons
+735,Vikings have won the war of the century!,10,3,0,0,1,1,4,278.0,740,173,Vikings
+736,Saxons have fought for their lives and survive another day...,14,0,4,0,3,1,0,524.5,203,297,Saxons
+737,Vikings have won the war of the century!,16,3,0,1,6,3,3,372.5,870,374,Vikings
+738,Saxons have fought for their lives and survive another day...,10,0,1,1,4,2,2,727.0,640,275,Saxons
+739,Saxons have fought for their lives and survive another day...,8,0,2,0,1,0,2,713.0,466,139,Saxons
+740,Vikings have won the war of the century!,8,3,0,1,1,3,2,278.0,743,178,Vikings
+741,Vikings have won the war of the century!,13,1,0,3,2,2,2,758.0,723,261,Vikings
+742,Vikings have won the war of the century!,13,3,0,0,5,2,3,268.5,801,264,Vikings
+743,Vikings have won the war of the century!,12,4,0,0,4,3,4,210.5,759,160,Vikings
+744,Vikings have won the war of the century!,11,3,0,0,6,2,2,361.0,785,248,Vikings
+745,Saxons have fought for their lives and survive another day...,14,0,4,0,4,4,4,548.5,508,296,Saxons
+746,Saxons have fought for their lives and survive another day...,17,0,2,2,6,2,2,671.5,650,469,Saxons
+747,Vikings have won the war of the century!,12,3,0,0,4,2,2,320.0,768,261,Vikings
+748,Vikings have won the war of the century!,11,3,0,0,3,3,3,302.5,694,183,Vikings
+749,Vikings have won the war of the century!,15,3,0,0,2,5,3,274.0,921,329,Vikings
+750,Vikings have won the war of the century!,16,4,0,1,4,1,3,192.5,766,291,Vikings
+751,Saxons have fought for their lives and survive another day...,11,0,4,0,3,1,3,545.0,385,268,Saxons
+752,Vikings have won the war of the century!,9,4,0,0,2,1,4,101.5,735,178,Vikings
+753,Saxons have fought for their lives and survive another day...,15,0,2,1,5,3,5,596.5,665,338,Saxons
+754,Vikings have won the war of the century!,8,4,0,0,3,3,1,72.0,711,156,Vikings
+755,Vikings have won the war of the century!,11,3,0,0,5,2,4,333.5,690,182,Vikings
+756,Vikings have won the war of the century!,16,3,0,2,3,0,2,545.0,816,338,Vikings
+757,Vikings have won the war of the century!,14,3,0,0,5,5,2,318.0,883,297,Vikings
+758,Vikings have won the war of the century!,11,3,0,0,5,2,4,328.5,728,176,Vikings
+759,Vikings have won the war of the century!,13,1,0,1,4,5,2,596.5,830,242,Vikings
+760,Vikings have won the war of the century!,10,4,0,1,5,2,5,291.0,890,192,Vikings
+761,Vikings have won the war of the century!,14,3,0,1,8,1,2,397.5,773,246,Vikings
+762,Vikings have won the war of the century!,12,1,0,1,5,0,1,416.5,737,236,Vikings
+763,Saxons have fought for their lives and survive another day...,9,0,2,0,3,3,3,585.5,498,197,Saxons
+764,Vikings have won the war of the century!,9,2,0,0,3,2,2,347.5,763,124,Vikings
+765,Saxons have fought for their lives and survive another day...,13,0,3,3,3,2,2,858.0,489,300,Saxons
+766,Saxons have fought for their lives and survive another day...,9,0,1,1,2,1,1,700.5,407,138,Saxons
+767,Saxons have fought for their lives and survive another day...,15,0,2,1,5,1,1,621.0,596,418,Saxons
+768,Vikings have won the war of the century!,9,4,0,1,1,2,2,262.0,805,232,Vikings
+769,Saxons have fought for their lives and survive another day...,13,0,2,0,3,1,2,470.0,441,197,Saxons
+770,Vikings have won the war of the century!,11,1,0,0,2,3,1,452.0,668,222,Vikings
+771,Saxons have fought for their lives and survive another day...,11,0,1,0,5,4,1,498.0,658,285,Saxons
+772,Saxons have fought for their lives and survive another day...,14,0,1,2,2,3,2,833.5,758,275,Saxons
+773,Vikings have won the war of the century!,9,2,0,0,5,2,3,311.5,693,171,Vikings
+774,Saxons have fought for their lives and survive another day...,8,0,4,0,3,0,0,596.5,195,195,Saxons
+775,Vikings have won the war of the century!,15,3,0,1,3,1,1,446.0,755,306,Vikings
+776,Vikings have won the war of the century!,17,1,0,2,6,2,3,720.0,977,352,Vikings
+777,Saxons have fought for their lives and survive another day...,23,0,2,1,6,3,4,509.0,651,402,Saxons
+778,Saxons have fought for their lives and survive another day...,9,0,1,0,3,2,4,609.0,639,156,Saxons
+779,Vikings have won the war of the century!,9,4,0,0,2,2,2,128.5,775,231,Vikings
+780,Vikings have won the war of the century!,17,4,0,0,4,2,2,321.5,879,383,Vikings
+781,Vikings have won the war of the century!,8,3,0,1,2,1,2,391.5,661,116,Vikings
+782,Vikings have won the war of the century!,10,1,0,0,4,2,3,474.5,828,212,Vikings
+783,Saxons have fought for their lives and survive another day...,12,0,3,1,5,1,2,738.5,388,238,Saxons
+784,Vikings have won the war of the century!,12,1,0,1,3,1,5,466.5,778,265,Vikings
+785,Saxons have fought for their lives and survive another day...,11,0,1,0,4,0,3,442.0,646,244,Saxons
+786,Vikings have won the war of the century!,11,4,0,0,0,4,2,215.0,801,224,Vikings
+787,Vikings have won the war of the century!,11,2,0,0,3,5,1,451.0,708,211,Vikings
+788,Saxons have fought for their lives and survive another day...,14,0,1,0,4,5,1,521.0,695,357,Saxons
+789,Vikings have won the war of the century!,8,2,0,0,4,3,2,350.5,641,100,Vikings
+790,Vikings have won the war of the century!,19,3,0,1,3,4,1,517.0,819,364,Vikings
+791,Saxons have fought for their lives and survive another day...,13,0,1,0,3,4,3,617.0,709,327,Saxons
+792,Vikings have won the war of the century!,10,4,0,1,2,2,3,274.0,670,176,Vikings
+793,Vikings have won the war of the century!,10,4,0,0,4,1,1,87.5,713,138,Vikings
+794,Vikings have won the war of the century!,14,2,0,0,3,1,2,374.5,778,278,Vikings
+795,Vikings have won the war of the century!,9,4,0,0,1,2,2,17.5,706,178,Vikings
+796,Vikings have won the war of the century!,11,1,0,2,3,1,3,676.5,679,249,Vikings
+797,Vikings have won the war of the century!,12,4,0,0,3,0,3,236.0,813,309,Vikings
+798,Saxons have fought for their lives and survive another day...,12,0,1,0,4,4,2,487.5,648,253,Saxons
+799,Vikings have won the war of the century!,14,2,0,1,2,5,3,467.5,798,213,Vikings
+800,Saxons have fought for their lives and survive another day...,12,0,2,1,5,0,2,600.0,387,245,Saxons
+801,Vikings have won the war of the century!,14,4,0,1,3,2,4,319.0,935,351,Vikings
+802,Vikings have won the war of the century!,11,2,0,1,1,1,2,388.0,797,243,Vikings
+803,Vikings have won the war of the century!,9,4,0,0,5,2,3,169.5,678,167,Vikings
+804,Vikings have won the war of the century!,12,4,0,0,3,2,2,210.5,721,221,Vikings
+805,Saxons have fought for their lives and survive another day...,11,0,1,0,5,2,4,582.5,643,195,Saxons
+806,Vikings have won the war of the century!,12,2,0,1,3,2,4,469.5,848,244,Vikings
+807,Saxons have fought for their lives and survive another day...,10,0,4,1,3,0,3,663.5,359,216,Saxons
+808,Vikings have won the war of the century!,16,2,0,0,6,3,1,413.5,899,357,Vikings
+809,Vikings have won the war of the century!,10,3,0,0,2,4,3,304.0,719,155,Vikings
+810,Saxons have fought for their lives and survive another day...,14,0,1,1,6,2,3,505.5,883,403,Saxons
+811,Vikings have won the war of the century!,10,4,0,0,5,1,1,112.5,741,221,Vikings
+812,Vikings have won the war of the century!,11,1,0,1,4,3,1,656.0,700,205,Vikings
+813,Vikings have won the war of the century!,10,1,0,0,5,4,2,380.0,777,225,Vikings
+814,Saxons have fought for their lives and survive another day...,11,0,2,0,4,2,2,490.0,554,300,Saxons
+815,Saxons have fought for their lives and survive another day...,14,0,1,2,3,2,2,580.5,680,308,Saxons
+816,Saxons have fought for their lives and survive another day...,17,0,1,1,7,1,2,643.5,796,465,Saxons
+817,Saxons have fought for their lives and survive another day...,8,0,2,0,3,1,3,512.5,514,190,Saxons
+818,Saxons have fought for their lives and survive another day...,13,0,1,0,5,2,2,494.5,711,262,Saxons
+819,Vikings have won the war of the century!,9,3,0,0,3,3,3,199.5,668,161,Vikings
+820,Vikings have won the war of the century!,14,3,0,3,2,2,1,491.0,896,323,Vikings
+821,Saxons have fought for their lives and survive another day...,9,0,1,0,1,3,2,534.0,632,226,Saxons
+822,Vikings have won the war of the century!,10,4,0,0,3,3,4,189.5,799,230,Vikings
+823,Saxons have fought for their lives and survive another day...,12,0,4,1,4,1,2,585.0,362,285,Saxons
+824,Saxons have fought for their lives and survive another day...,10,0,2,0,6,1,1,444.0,504,204,Saxons
+825,Saxons have fought for their lives and survive another day...,8,0,4,0,0,2,0,571.0,157,211,Saxons
+826,Vikings have won the war of the century!,12,3,0,1,3,3,2,499.0,812,234,Vikings
+827,Vikings have won the war of the century!,14,1,0,4,6,2,3,908.0,837,306,Vikings
+828,Vikings have won the war of the century!,11,1,0,0,2,2,5,424.5,838,192,Vikings
+829,Saxons have fought for their lives and survive another day...,16,0,2,1,6,0,3,585.0,706,439,Saxons
+830,Vikings have won the war of the century!,20,1,0,2,3,0,3,652.5,842,365,Vikings
+831,Vikings have won the war of the century!,14,1,0,0,4,4,3,508.0,1024,355,Vikings
+832,Vikings have won the war of the century!,14,2,0,0,3,2,3,334.0,750,249,Vikings
+833,Saxons have fought for their lives and survive another day...,17,0,3,1,4,5,4,538.5,722,426,Saxons
+834,Saxons have fought for their lives and survive another day...,9,0,2,0,1,1,1,607.0,572,207,Saxons
+835,Saxons have fought for their lives and survive another day...,14,0,3,1,5,3,3,603.0,488,331,Saxons
+836,Vikings have won the war of the century!,13,3,0,0,4,1,2,216.0,780,231,Vikings
+837,Vikings have won the war of the century!,10,4,0,0,5,2,4,220.5,829,234,Vikings
+838,Vikings have won the war of the century!,15,4,0,0,7,1,4,234.0,855,358,Vikings
+839,Saxons have fought for their lives and survive another day...,11,0,2,2,1,0,2,675.5,613,254,Saxons
+840,Saxons have fought for their lives and survive another day...,9,0,1,1,1,1,0,671.5,523,143,Saxons
+841,Vikings have won the war of the century!,13,2,0,0,3,3,2,338.5,871,330,Vikings
+842,Vikings have won the war of the century!,14,3,0,1,5,1,5,345.5,785,281,Vikings
+843,Saxons have fought for their lives and survive another day...,13,0,2,1,1,3,1,675.0,728,332,Saxons
+844,Vikings have won the war of the century!,9,1,0,0,5,4,1,491.0,740,152,Vikings
+845,Saxons have fought for their lives and survive another day...,11,0,1,0,4,3,3,485.5,456,292,Saxons
+846,Vikings have won the war of the century!,11,4,0,0,3,2,2,185.0,801,242,Vikings
+847,Vikings have won the war of the century!,14,3,0,0,4,3,5,327.0,830,308,Vikings
+848,Vikings have won the war of the century!,14,3,0,0,5,1,3,342.0,768,275,Vikings
+849,Saxons have fought for their lives and survive another day...,12,0,4,1,3,1,3,517.0,394,243,Saxons
+850,Saxons have fought for their lives and survive another day...,14,0,3,1,5,1,1,518.0,493,333,Saxons
+851,Saxons have fought for their lives and survive another day...,9,0,2,1,1,1,0,510.0,396,180,Saxons
+852,Vikings have won the war of the century!,8,1,0,0,2,3,1,531.5,615,126,Vikings
+853,Saxons have fought for their lives and survive another day...,28,0,2,0,9,2,4,479.0,995,686,Saxons
+854,Saxons have fought for their lives and survive another day...,13,0,2,1,4,4,1,542.5,520,328,Saxons
+855,Saxons have fought for their lives and survive another day...,12,0,1,1,4,2,2,618.0,727,316,Saxons
+856,Vikings have won the war of the century!,15,3,0,1,5,4,4,411.5,923,354,Vikings
+857,Vikings have won the war of the century!,8,2,0,0,3,6,2,389.5,687,143,Vikings
+858,Vikings have won the war of the century!,10,1,0,1,2,2,4,505.0,740,218,Vikings
+859,Vikings have won the war of the century!,15,3,0,1,3,6,2,257.0,1018,328,Vikings
+860,Vikings have won the war of the century!,13,4,0,0,3,4,4,175.5,836,267,Vikings
+861,Vikings have won the war of the century!,17,1,0,4,7,4,3,776.0,995,485,Vikings
+862,Vikings have won the war of the century!,14,1,0,2,3,4,1,522.0,791,295,Vikings
+863,Saxons have fought for their lives and survive another day...,12,0,3,2,2,2,3,797.0,452,253,Saxons
+864,Vikings have won the war of the century!,12,4,0,0,2,4,1,192.0,761,252,Vikings
+865,Vikings have won the war of the century!,12,1,0,1,4,2,1,573.5,840,208,Vikings
+866,Vikings have won the war of the century!,7,4,0,0,2,4,3,138.0,640,110,Vikings
+867,Saxons have fought for their lives and survive another day...,12,0,1,1,4,3,1,659.0,680,218,Saxons
+868,Saxons have fought for their lives and survive another day...,16,0,1,5,2,2,4,935.0,821,400,Saxons
+869,Vikings have won the war of the century!,9,3,0,0,0,1,3,402.0,711,157,Vikings
+870,Saxons have fought for their lives and survive another day...,17,0,3,2,5,4,2,675.0,683,412,Saxons
+871,Saxons have fought for their lives and survive another day...,10,0,3,1,4,1,3,743.5,515,230,Saxons
+872,Vikings have won the war of the century!,10,2,0,1,3,3,2,517.0,700,157,Vikings
+873,Vikings have won the war of the century!,12,2,0,2,2,3,2,562.5,780,253,Vikings
+874,Saxons have fought for their lives and survive another day...,10,0,3,0,3,0,0,580.0,351,182,Saxons
+875,Vikings have won the war of the century!,9,3,0,0,2,5,1,296.0,750,176,Vikings
+876,Vikings have won the war of the century!,9,3,0,1,5,2,3,369.5,662,109,Vikings
+877,Vikings have won the war of the century!,11,1,0,1,3,3,1,459.0,738,249,Vikings
+878,Saxons have fought for their lives and survive another day...,8,0,1,0,1,2,3,545.5,533,191,Saxons
+879,Saxons have fought for their lives and survive another day...,8,0,1,0,3,0,1,452.5,557,193,Saxons
+880,Saxons have fought for their lives and survive another day...,9,0,3,0,4,1,2,487.0,479,230,Saxons
+881,Saxons have fought for their lives and survive another day...,14,0,2,1,6,4,1,633.0,589,334,Saxons
+882,Vikings have won the war of the century!,10,3,0,0,2,2,4,384.0,770,161,Vikings
+883,Vikings have won the war of the century!,19,1,0,0,6,6,6,427.5,1083,429,Vikings
+884,Vikings have won the war of the century!,11,2,0,2,2,3,3,610.0,700,163,Vikings
+885,Vikings have won the war of the century!,7,2,0,0,1,2,2,385.0,630,134,Vikings
+886,Vikings have won the war of the century!,16,1,0,0,6,2,1,389.0,727,275,Vikings
+887,Vikings have won the war of the century!,7,4,0,0,1,3,2,270.0,620,74,Vikings
+888,Vikings have won the war of the century!,9,2,0,1,3,2,1,419.5,712,171,Vikings
+889,Vikings have won the war of the century!,8,2,0,0,2,2,1,400.0,764,124,Vikings
+890,Vikings have won the war of the century!,13,1,0,2,2,2,5,662.0,776,236,Vikings
+891,Vikings have won the war of the century!,11,1,0,2,1,2,4,623.5,713,198,Vikings
+892,Vikings have won the war of the century!,11,3,0,0,0,0,2,298.0,696,222,Vikings
+893,Saxons have fought for their lives and survive another day...,11,0,4,0,3,3,0,518.5,285,237,Saxons
+894,Vikings have won the war of the century!,12,1,0,2,1,4,4,656.5,775,246,Vikings
+895,Vikings have won the war of the century!,12,2,0,0,3,4,3,303.0,756,258,Vikings
+896,Vikings have won the war of the century!,9,4,0,0,1,2,1,206.0,629,154,Vikings
+897,Saxons have fought for their lives and survive another day...,11,0,3,2,4,2,5,711.0,512,297,Saxons
+898,Vikings have won the war of the century!,11,3,0,0,4,5,3,288.5,795,233,Vikings
+899,Saxons have fought for their lives and survive another day...,9,0,3,0,3,2,1,608.0,398,211,Saxons
+900,Saxons have fought for their lives and survive another day...,8,0,3,0,2,1,2,483.0,260,134,Saxons
+901,Vikings have won the war of the century!,9,2,0,1,0,2,2,329.0,774,196,Vikings
+902,Vikings have won the war of the century!,9,3,0,0,4,1,2,264.0,755,212,Vikings
+903,Saxons have fought for their lives and survive another day...,15,0,2,1,3,4,4,639.5,674,324,Saxons
+904,Vikings have won the war of the century!,16,3,0,0,8,3,4,373.5,874,294,Vikings
+905,Saxons have fought for their lives and survive another day...,12,0,1,2,1,1,1,666.5,697,295,Saxons
+906,Saxons have fought for their lives and survive another day...,8,0,2,0,2,1,2,521.5,397,169,Saxons
+907,Vikings have won the war of the century!,14,2,0,1,3,2,1,400.5,811,286,Vikings
+908,Saxons have fought for their lives and survive another day...,11,0,2,0,4,0,4,463.0,486,309,Saxons
+909,Saxons have fought for their lives and survive another day...,8,0,1,0,0,4,0,429.0,522,155,Saxons
+910,Vikings have won the war of the century!,9,2,0,1,4,1,1,405.5,652,164,Vikings
+911,Vikings have won the war of the century!,9,3,0,0,4,1,3,307.0,805,144,Vikings
+912,Vikings have won the war of the century!,14,3,0,3,2,2,3,621.0,831,280,Vikings
+913,Vikings have won the war of the century!,12,3,0,2,3,2,4,395.5,794,261,Vikings
+914,Saxons have fought for their lives and survive another day...,9,0,3,0,1,0,2,513.5,423,230,Saxons
+915,Vikings have won the war of the century!,9,3,0,0,2,1,0,315.0,705,240,Vikings
+916,Saxons have fought for their lives and survive another day...,13,0,2,0,4,1,1,488.0,597,251,Saxons
+917,Vikings have won the war of the century!,13,2,0,4,4,2,3,800.0,901,320,Vikings
+918,Saxons have fought for their lives and survive another day...,10,0,2,1,4,1,2,650.5,414,228,Saxons
+919,Vikings have won the war of the century!,8,3,0,2,3,4,0,479.0,639,190,Vikings
+920,Saxons have fought for their lives and survive another day...,16,0,1,1,3,0,2,521.0,714,431,Saxons
+921,Saxons have fought for their lives and survive another day...,13,0,2,0,3,3,3,495.0,623,308,Saxons
+922,Saxons have fought for their lives and survive another day...,12,0,2,0,3,2,4,543.5,570,308,Saxons
+923,Vikings have won the war of the century!,13,3,0,2,7,2,1,377.5,832,314,Vikings
+924,Vikings have won the war of the century!,10,1,0,1,1,1,2,492.5,767,208,Vikings
+925,Vikings have won the war of the century!,11,2,0,0,5,0,2,290.5,714,168,Vikings
+926,Saxons have fought for their lives and survive another day...,9,0,2,0,3,0,1,566.5,532,207,Saxons
+927,Saxons have fought for their lives and survive another day...,10,0,4,2,1,2,2,637.5,280,224,Saxons
+928,Saxons have fought for their lives and survive another day...,16,0,3,2,4,1,0,751.0,456,428,Saxons
+929,Vikings have won the war of the century!,8,1,0,1,3,2,3,453.0,699,152,Vikings
+930,Vikings have won the war of the century!,17,3,0,0,1,3,3,316.0,862,338,Vikings
+931,Saxons have fought for their lives and survive another day...,10,0,3,0,4,0,2,581.0,320,169,Saxons
+932,Vikings have won the war of the century!,15,1,0,4,5,2,2,679.0,793,306,Vikings
+933,Saxons have fought for their lives and survive another day...,12,0,2,1,2,3,3,878.0,600,323,Saxons
+934,Vikings have won the war of the century!,12,4,0,0,5,3,3,253.5,748,218,Vikings
+935,Saxons have fought for their lives and survive another day...,17,0,1,0,4,0,4,525.5,727,342,Saxons
+936,Vikings have won the war of the century!,14,3,0,2,3,0,3,401.5,771,272,Vikings
+937,Saxons have fought for their lives and survive another day...,10,0,2,1,3,1,3,572.5,429,182,Saxons
+938,Vikings have won the war of the century!,10,2,0,0,3,3,2,416.5,857,220,Vikings
+939,Saxons have fought for their lives and survive another day...,10,0,3,1,2,0,3,527.0,459,225,Saxons
+940,Vikings have won the war of the century!,9,3,0,1,5,1,4,367.5,788,175,Vikings
+941,Saxons have fought for their lives and survive another day...,10,0,1,1,5,1,5,714.5,730,285,Saxons
+942,Saxons have fought for their lives and survive another day...,9,0,4,0,3,0,0,555.5,171,190,Saxons
+943,Vikings have won the war of the century!,12,3,0,1,2,2,3,374.5,902,323,Vikings
+944,Vikings have won the war of the century!,13,4,0,0,5,1,3,239.5,803,268,Vikings
+945,Vikings have won the war of the century!,13,1,0,0,4,4,2,410.0,813,250,Vikings
+946,Saxons have fought for their lives and survive another day...,8,0,1,0,1,1,1,625.0,476,164,Saxons
+947,Vikings have won the war of the century!,9,2,0,0,2,3,2,331.0,734,193,Vikings
+948,Vikings have won the war of the century!,11,3,0,0,0,1,3,287.0,720,219,Vikings
+949,Saxons have fought for their lives and survive another day...,14,0,3,0,4,2,1,542.0,381,319,Saxons
+950,Vikings have won the war of the century!,10,4,0,0,4,4,1,75.5,742,211,Vikings
+951,Vikings have won the war of the century!,10,1,0,0,2,3,4,426.5,876,191,Vikings
+952,Vikings have won the war of the century!,15,2,0,0,4,0,5,320.0,842,350,Vikings
+953,Vikings have won the war of the century!,12,1,0,2,4,3,3,723.0,787,268,Vikings
+954,Saxons have fought for their lives and survive another day...,10,0,1,2,0,1,3,681.0,663,162,Saxons
+955,Vikings have won the war of the century!,11,3,0,0,3,3,4,297.5,715,185,Vikings
+956,Vikings have won the war of the century!,18,2,0,0,6,1,4,449.0,991,452,Vikings
+957,Saxons have fought for their lives and survive another day...,14,0,1,5,4,3,2,1110.5,622,300,Saxons
+958,Saxons have fought for their lives and survive another day...,13,0,1,0,4,3,2,629.0,717,289,Saxons
+959,Saxons have fought for their lives and survive another day...,11,0,1,0,4,1,0,613.0,486,322,Saxons
+960,Vikings have won the war of the century!,12,4,0,0,5,1,3,177.0,804,244,Vikings
+961,Saxons have fought for their lives and survive another day...,12,0,1,1,1,0,2,534.5,693,260,Saxons
+962,Vikings have won the war of the century!,11,2,0,0,2,2,6,388.5,749,199,Vikings
+963,Vikings have won the war of the century!,16,4,0,1,4,5,4,276.5,837,272,Vikings
+964,Vikings have won the war of the century!,19,2,0,1,6,5,2,477.0,824,336,Vikings
+965,Saxons have fought for their lives and survive another day...,14,0,3,0,3,3,3,598.0,625,324,Saxons
+966,Saxons have fought for their lives and survive another day...,12,0,1,0,3,2,2,568.0,727,316,Saxons
+967,Vikings have won the war of the century!,13,2,0,1,5,1,2,469.0,800,323,Vikings
+968,Vikings have won the war of the century!,14,1,0,0,3,3,4,439.5,849,287,Vikings
+969,Saxons have fought for their lives and survive another day...,10,0,1,1,4,1,3,618.0,742,211,Saxons
+970,Saxons have fought for their lives and survive another day...,10,0,1,1,4,3,2,636.0,617,181,Saxons
+971,Vikings have won the war of the century!,10,2,0,2,3,2,3,515.5,695,136,Vikings
+972,Saxons have fought for their lives and survive another day...,8,0,1,1,1,0,0,548.0,473,179,Saxons
+973,Saxons have fought for their lives and survive another day...,12,0,2,0,3,1,2,589.0,621,319,Saxons
+974,Saxons have fought for their lives and survive another day...,17,0,3,1,6,2,1,510.0,409,345,Saxons
+975,Vikings have won the war of the century!,17,3,0,1,5,2,4,417.0,859,347,Vikings
+976,Saxons have fought for their lives and survive another day...,10,0,2,0,4,2,2,622.0,593,248,Saxons
+977,Vikings have won the war of the century!,12,1,0,1,1,0,1,550.0,742,281,Vikings
+978,Vikings have won the war of the century!,7,2,0,0,2,3,0,412.5,650,100,Vikings
+979,Vikings have won the war of the century!,11,3,0,1,3,2,1,393.5,788,247,Vikings
+980,Saxons have fought for their lives and survive another day...,12,0,1,1,4,2,3,659.0,710,300,Saxons
+981,Vikings have won the war of the century!,11,1,0,1,2,3,3,516.0,691,198,Vikings
+982,Vikings have won the war of the century!,10,1,0,0,4,3,2,572.0,870,215,Vikings
+983,Vikings have won the war of the century!,15,1,0,2,5,5,3,517.0,812,307,Vikings
+984,Saxons have fought for their lives and survive another day...,13,0,4,0,1,3,2,490.5,395,266,Saxons
+985,Vikings have won the war of the century!,9,4,0,0,3,3,3,217.0,760,133,Vikings
+986,Vikings have won the war of the century!,10,2,0,2,3,4,0,536.0,794,222,Vikings
+987,Vikings have won the war of the century!,10,3,0,0,2,1,1,378.0,669,210,Vikings
+988,Vikings have won the war of the century!,10,4,0,0,5,4,2,256.5,753,224,Vikings
+989,Vikings have won the war of the century!,10,3,0,0,1,3,0,246.5,773,232,Vikings
+990,Saxons have fought for their lives and survive another day...,17,0,2,3,6,2,3,791.5,755,377,Saxons
+991,Vikings have won the war of the century!,9,1,0,0,4,3,2,510.5,736,185,Vikings
+992,Vikings have won the war of the century!,8,1,0,0,1,4,3,450.0,882,198,Vikings
+993,Vikings have won the war of the century!,19,2,0,0,6,3,2,431.5,890,389,Vikings
+994,Vikings have won the war of the century!,21,2,0,0,5,4,2,352.5,939,438,Vikings
+995,Vikings have won the war of the century!,11,3,0,0,2,1,2,256.0,712,149,Vikings
+996,Vikings have won the war of the century!,14,4,0,0,3,2,2,231.0,846,285,Vikings
+997,Vikings have won the war of the century!,10,3,0,0,4,3,1,218.0,709,213,Vikings
+998,Saxons have fought for their lives and survive another day...,10,0,2,0,3,2,0,671.5,534,278,Saxons
+999,Saxons have fought for their lives and survive another day...,7,0,2,0,0,1,3,562.0,622,172,Saxons
+1000,Vikings have won the war of the century!,16,3,0,3,5,3,2,571.0,910,346,Vikings

@@ -159,7 +159,7 @@ class War():
 #* Global Variables
 
 # Run multiple simulations
-num_simulations = 100  # Change to run more simulations
+num_simulations = 1000  # Change to run more simulations
 battle_data = []
 
 for sim in range(num_simulations):
@@ -203,10 +203,17 @@ for sim in range(num_simulations):
         great_war.checkVikingBattleCry()
         round_count += 1
 
-    battle_data.append([sim+1, great_war.showStatus().split(" ")[0], round_count, len(great_war.vikingArmy), len(great_war.saxonArmy), revived_count, blocked_count, battlecry_count, rage_count, total_damage_done_by_saxons, total_damage_done_by_vikings,total_healed_amount ])
-
+   #determine the winner based on game's outcome   
+    final_status = great_war.showStatus()
+    if "Vikings have won" in final_status:
+        winner = "Vikings"
+    else:
+        winner = "Saxons"
+    
+    battle_data.append([sim+1, great_war.showStatus(), round_count, len(great_war.vikingArmy), len(great_war.saxonArmy), revived_count, blocked_count, battlecry_count, rage_count, total_damage_done_by_saxons, total_damage_done_by_vikings,total_healed_amount, winner ])
+    
 # Save data to Pandas DataFrame
-df = pd.DataFrame(battle_data, columns=["Simulation", "Winner", "Rounds", "Vikings Left", "Saxons Left", "Revived Vikings", "Vikings Block Count", "Viking Battlecry Count", "Saxon Rage Count", "Viking Damage Done", "Saxon Damage Done", "Saxon Healing Done"])
+df = pd.DataFrame(battle_data, columns=["Simulation", "Outcome", "Rounds", "Vikings Left", "Saxons Left", "Revived Vikings", "Vikings Block Count", "Viking Battlecry Count", "Saxon Rage Count", "Viking Damage Done", "Saxon Damage Done", "Saxon Healing Done", "Winner"])
 
 #* Battle Summary
 """ print("\n=== BATTLE SUMMARY ===")
@@ -304,3 +311,23 @@ plt.legend(title="Winner")
 plt.tight_layout()
 plt.show()
 #NOTE: Analisis: Check if Saxon wins tend to occur at higher healing amounts. This would suggest that healing is a key factor in their success.
+
+# cumulative win rates >> how many simulations did vikings and saxons win the war
+df["Viking Wins"] = (df["Winner"] == "Vikings").cumsum()
+df["Saxon Wins"] = (df["Winner"] == "Saxons").cumsum()
+df["Viking Win %"] = df["Viking Wins"] / df["Simulation"]
+df["Saxon Win %"] = df["Saxon Wins"] / df["Simulation"]
+
+# plot the cumulative win percentage over simulations to see the outcome over time
+plt.figure(figsize=(12, 6))
+plt.plot(df["Simulation"], df["Viking Win %"], label="Vikings Win %")
+plt.plot(df["Simulation"], df["Saxon Win %"], label="Saxons Win %", linestyle="dashed")
+plt.axhline(y=0.5, color="black", linestyle="dotted", label="Parity")
+plt.xlabel("Number of Simulations")
+plt.ylabel("Win Percentage")
+plt.title("How Battle Outcomes Change with More Simulations")
+plt.legend()
+plt.grid(True)
+plt.show()
+
+
