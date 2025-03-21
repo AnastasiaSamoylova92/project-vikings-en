@@ -203,7 +203,7 @@ for sim in range(num_simulations):
         great_war.checkVikingBattleCry()
         round_count += 1
 
-    battle_data.append([sim+1, great_war.showStatus(), round_count, len(great_war.vikingArmy), len(great_war.saxonArmy), revived_count, blocked_count, battlecry_count, rage_count, total_damage_done_by_saxons, total_damage_done_by_vikings,total_healed_amount ])
+    battle_data.append([sim+1, great_war.showStatus().split(" ")[0], round_count, len(great_war.vikingArmy), len(great_war.saxonArmy), revived_count, blocked_count, battlecry_count, rage_count, total_damage_done_by_saxons, total_damage_done_by_vikings,total_healed_amount ])
 
 # Save data to Pandas DataFrame
 df = pd.DataFrame(battle_data, columns=["Simulation", "Winner", "Rounds", "Vikings Left", "Saxons Left", "Revived Vikings", "Vikings Block Count", "Viking Battlecry Count", "Saxon Rage Count", "Viking Damage Done", "Saxon Damage Done", "Saxon Healing Done"])
@@ -225,7 +225,8 @@ print(f"Total Count of Saxon rage mode: {rage_count}") # increase strength of al
 df.to_csv("battle_results.csv", index=False)
 
 #visualization
-#bar chart showing how many battlers were won by each side
+
+#* bar chart showing how many battlers were won by each side
 plt.figure(figsize=(10, 5))
 sns.countplot(x="Winner", data=df, palette="coolwarm")
 plt.title("Battle Outcome Count")
@@ -233,7 +234,7 @@ plt.xlabel("Winner")
 plt.ylabel("Count")
 plt.show()
 
-#histohram showing distribution of how many rounds battles lasted
+#* histohram showing distribution of how many rounds battles lasted
 plt.figure(figsize=(10, 5))
 sns.histplot(df["Rounds"], bins=20, color='blue')
 plt.title("Distribution of Rounds per Battle")
@@ -241,7 +242,7 @@ plt.xlabel("Number of Rounds")
 plt.ylabel("Number of Simulations")
 plt.show()
 
-#scatter plot showing how the number of rounds chanhges over different simulations
+#* scatter plot showing how the number of rounds chanhges over different simulations
 plt.figure(figsize=(10, 5))
 sns.scatterplot(x=df["Simulation"], y=df["Rounds"], hue=df["Winner"], palette="coolwarm", alpha=0.6)
 plt.title("Rounds per Battle over Simulations")
@@ -249,16 +250,57 @@ plt.xlabel("Simulation")
 plt.ylabel("Rounds")
 plt.show()
 
-plt.figure(figsize =(10, 5))
-sns.lineplot(x="Winner", y = "Vikings Block Count", data = df, palette = "coolwarm")
-plt.xlabel("Winner")
-plt.ylabel("Vikings Block Count")
-plt.title("Vikings Block Count")
-plt.show()
 
-plt.figure(figsize =(10, 5))
-sns.lineplot(x="Winner", y = "Saxon Healing Done", data = df, palette = "coolwarm")
-plt.xlabel("Winner")
-plt.ylabel("Saxon Healing Done")
-plt.title("Saxon Healing Done")
+#* Grouped bar chart for ability triggers based on war winner
+# Reshape the DataFrame to long format using `melt()` for Seaborn
+ability_trigger_melted = df.melt(
+    id_vars=['Winner'], 
+    value_vars=['Saxon Rage Count', 'Viking Battlecry Count', 'Vikings Block Count', 'Revived Vikings'],
+    var_name='Ability', 
+    value_name='Total Triggers'
+)
+plt.figure(figsize=(10, 6))
+sns.barplot(x='Ability', y='Total Triggers', hue='Winner', data=ability_trigger_melted, palette='coolwarm', errorbar=None)
+plt.xlabel("Ability Name")
+plt.ylabel("Total Triggers")
+plt.title("Ability Trigger Frequency Comparison by Winner")
+plt.xticks(rotation=0)  # Keep x-axis labels horizontal
+plt.legend(title="Winner")
+plt.tight_layout()
 plt.show()
+# NOTE: Analisis: Are certain abilities more frequently triggered when one side wins compared to when the other side wins? 
+# - If they are, they could be providing an edge on the battle as expected.
+# - If trigger is low but the ability side wins more often, the ability effect might be too powerful.
+# - If one ability is triggering far more often than others, it might be too unbalanced.
+
+#* Grouped bar chart for damage done based on war winner
+# Reshape the DataFrame to long format using `melt()` for Seaborn
+damage_melted = df.melt(
+    id_vars=['Winner'], 
+    value_vars=['Viking Damage Done', 'Saxon Damage Done'], 
+    var_name='Metric', 
+    value_name='Total Amount'
+)
+plt.figure(figsize=(10, 6))
+sns.barplot(x='Metric', y='Total Amount', hue='Winner', data=damage_melted, palette='coolwarm', errorbar=None)
+plt.xlabel("Damage per side")
+plt.ylabel("Total Amount")
+plt.title("Damage Done Comparison by Winner")
+plt.xticks(rotation=0)  # Keep x-axis labels horizontal
+plt.legend(title="Winner")
+plt.tight_layout()
+plt.show()
+# NOTE: Analisis: Does the total damage done by the Vikings or Saxons correlate with the war's outcome?
+# - if directly correlate, vikings or saxons rely on high damage to win the war.
+# - if victory happends even when damage done was lower, it might suggest other abilities or factors are playing a bigger effect on the war.
+
+#* Create the grouped bar chart with Seaborn
+plt.figure(figsize=(10, 6))
+sns.scatterplot(x=df['Saxon Healing Done'], y=df['Rounds'], hue=df['Winner'], palette='coolwarm')
+plt.xlabel("Saxon Healing Done")
+plt.ylabel("Number of Rounds")
+plt.title("Saxon Healing vs. War Length (Colored by Winner)")
+plt.legend(title="Winner")
+plt.tight_layout()
+plt.show()
+#NOTE: Analisis: Check if Saxon wins tend to occur at higher healing amounts. This would suggest that healing is a key factor in their success.
